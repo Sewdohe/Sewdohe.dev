@@ -3,7 +3,7 @@
   "currentTemplate": "standard",
   "currentTheme": "catppuccin",
   "customThemeFile": "custom",
-  "contentOrganization": "file-based",
+  "contentOrganization": "folder-based",
   "themeColors": {
     "mode": "simple",
     "simpleColors": {
@@ -61,22 +61,23 @@
             "url": "/privacy-policy/"
           }
         ]
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball/astro-modular"
       }
     ],
     "social": [
       {
         "title": "Bluesky",
-        "url": "https://x.com/davidvkimball",
-        "icon": "x-twitter"
+        "url": "https://bsky.app/profile/divnectar.com",
+        "icon": "bluesky"
       },
       {
         "title": "GitHub",
         "url": "https://github.com/Sewdohe",
         "icon": "github"
+      },
+      {
+        "title": "Reddit",
+        "url": "https://www.reddit.com/user/Sewdohe/",
+        "icon": "reddit"
       }
     ]
   },
@@ -244,7 +245,7 @@
   },
   "optionalContentTypes": {
     "projects": true,
-    "docs": true
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",

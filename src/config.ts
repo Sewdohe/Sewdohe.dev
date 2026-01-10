@@ -317,20 +317,24 @@ export const siteConfig: SiteConfig = {
       { title: "About", url: "/about/",
         children: [
           { title: "Privacy Policy", url: "/privacy-policy/" }
-        ] },
-      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" }
+        ] }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
         title: "Bluesky",
-        url: "https://x.com/davidvkimball",
-        icon: "x-twitter",
+        url: "https://bsky.app/profile/divnectar.com",
+        icon: "bluesky",
       },
       {
         title: "GitHub",
         url: "https://github.com/Sewdohe",
         icon: "github",
+      },
+      {
+        title: "Reddit",
+        url: "https://www.reddit.com/user/Sewdohe/",
+        icon: "reddit",
       },
     ],
   },
@@ -340,7 +344,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
     projects: true, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: true, // Enable documentation section
+    docs: false, // Enable documentation section
   },
 
   // Home Options
