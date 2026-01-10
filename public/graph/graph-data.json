@@ -29,6 +29,13 @@
       "connections": 0
     },
     {
+      "id": "test-post",
+      "type": "post",
+      "title": "Test Post",
+      "slug": "test-post",
+      "connections": 0
+    },
+    {
       "id": "vault-cms-guide",
       "type": "post",
       "title": "Vault CMS Guide",
@@ -119,9 +126,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 5,
+    "totalPosts": 6,
     "totalConnections": 16,
     "maxNodesApplied": false,
-    "originalNodeCount": 5
+    "originalNodeCount": 6
   }
 }

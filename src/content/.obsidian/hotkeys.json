@@ -235,5 +235,14 @@
       ],
       "key": "V"
     }
+  ],
+  "image-manager:insert-remote-image-to-property": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
   ]
 }

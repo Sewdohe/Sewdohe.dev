@@ -1,7 +1,7 @@
 {
   "runWizardOnStartup": true,
   "currentTemplate": "standard",
-  "currentTheme": "oxygen",
+  "currentTheme": "catppuccin",
   "customThemeFile": "custom",
   "contentOrganization": "file-based",
   "themeColors": {
@@ -12,10 +12,10 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
-    "title": "Astro Modular",
-    "description": "A flexible blog theme designed for Obsidian users.",
-    "author": "David V. Kimball",
+    "site": "https://divnectar.com",
+    "title": "DivNectar",
+    "description": "Personal blog and portfolio of Sewdohe",
+    "author": "Josh Melton",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
@@ -69,13 +69,13 @@
     ],
     "social": [
       {
-        "title": "X",
+        "title": "Bluesky",
         "url": "https://x.com/davidvkimball",
         "icon": "x-twitter"
       },
       {
         "title": "GitHub",
-        "url": "https://github.com/davidvkimball",
+        "url": "https://github.com/Sewdohe",
         "icon": "github"
       }
     ]
@@ -171,7 +171,7 @@
     "hideScrollBar": false,
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
-    "profilePicture": false,
+    "profilePicture": true,
     "comments": false,
     "featureButton": "mode",
     "showPostCardCoverImages": "featured-and-posts",
@@ -199,8 +199,8 @@
   },
   "optionalFeatures": {
     "profilePicture": {
-      "enabled": false,
-      "image": "/profile.jpg",
+      "enabled": true,
+      "image": "/sewdohe.png",
       "alt": "Profile picture",
       "size": "md",
       "url": "",
