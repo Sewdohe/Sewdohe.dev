@@ -1,5 +1,5 @@
 {
-  "runWizardOnStartup": true,
+  "runWizardOnStartup": false,
   "currentTemplate": "standard",
   "currentTheme": "catppuccin",
   "customThemeFile": "custom",
@@ -245,7 +245,7 @@
   },
   "optionalContentTypes": {
     "projects": true,
-    "docs": false
+    "docs": true
   },
   "availableThemes": "default",
   "customThemes": "",

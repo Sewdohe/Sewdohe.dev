@@ -1,6 +1,13 @@
 {
   "nodes": [
     {
+      "id": "book-review-redwall",
+      "type": "post",
+      "title": "Book Review: Redwall",
+      "slug": "book-review-redwall",
+      "connections": 0
+    },
+    {
       "id": "new-site",
       "type": "post",
       "title": "New Site - Who dis?",
@@ -10,9 +17,9 @@
   ],
   "connections": [],
   "metadata": {
-    "totalPosts": 1,
+    "totalPosts": 2,
     "totalConnections": 0,
     "maxNodesApplied": false,
-    "originalNodeCount": 1
+    "originalNodeCount": 2
   }
 }
