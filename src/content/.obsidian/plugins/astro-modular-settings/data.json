@@ -49,18 +49,8 @@
         "url": "/projects/"
       },
       {
-        "title": "Docs",
-        "url": "/docs/"
-      },
-      {
         "title": "About",
-        "url": "/about/",
-        "children": [
-          {
-            "title": "Privacy Policy",
-            "url": "/privacy-policy/"
-          }
-        ]
+        "url": "/about/"
       }
     ],
     "social": [
