@@ -78,7 +78,7 @@
     "search": {
       "posts": true,
       "pages": false,
-      "projects": false,
+      "projects": true,
       "docs": false
     },
     "sections": {
@@ -105,14 +105,14 @@
     },
     "projects": {
       "enabled": true,
-      "count": 2
+      "count": 3
     },
     "docs": {
-      "enabled": true,
+      "enabled": false,
       "count": 3
     },
     "blurb": {
-      "placement": "below"
+      "placement": "above"
     }
   },
   "postOptions": {
