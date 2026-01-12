@@ -7,7 +7,7 @@ tags:
   - tutorial
   - software
   - terminal
-image: "[[minecraft-diamond-block.png]]"
+image: "[[minecraft-purple-block.png]]"
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
