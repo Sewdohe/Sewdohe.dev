@@ -23,6 +23,8 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { siteConfig } from './src/config.ts';
 import swup from '@swup/astro';
 import { fileURLToPath } from 'url';
+import partytown from '@astrojs/partytown';
+
 
 // Deployment platform configuration
 const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || 'netlify';
@@ -40,9 +42,6 @@ export default defineConfig({
   '/about-us': '/about',
   '/contact-me': '/contact',
   '/contact-us': '/contact',
-  '/privacy': '/privacy-policy',
-  '/projects/obsidian-astro-composer': '/projects/astro-composer',
-  '/projects/obsidian-astro-suite': '/projects/vault-cms',
   '/docs/api-reference': '/docs/api',
   '/docs/astro-modular-configuration': '/docs/configuration',
   '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup'
@@ -61,6 +60,7 @@ image: {
   integrations: [
     tailwind(),
     sitemap(),
+    partytown({ config: { forward: ['dataLayer.push'] } }),
     mdx(),
     swup({
       theme: false,

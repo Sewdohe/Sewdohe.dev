@@ -170,24 +170,6 @@
   force = true
 
 [[redirects]]
-  from = "/privacy"
-  to = "/privacy-policy"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/projects/obsidian-astro-composer"
-  to = "/projects/astro-composer"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/projects/obsidian-astro-suite"
-  to = "/projects/vault-cms"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/docs/api-reference"
   to = "/docs/api"
   status = 301

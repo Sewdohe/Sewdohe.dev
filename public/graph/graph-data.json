@@ -8,18 +8,32 @@
       "connections": 0
     },
     {
+      "id": "minecraft-modpacks-packwiz",
+      "type": "post",
+      "title": "Minecraft Modpacks & Packwiz",
+      "slug": "minecraft-modpacks-packwiz",
+      "connections": 0
+    },
+    {
       "id": "new-site",
       "type": "post",
       "title": "New Site - Who dis?",
       "slug": "new-site",
       "connections": 0
+    },
+    {
+      "id": "organizing-with-obsidian",
+      "type": "post",
+      "title": "Organizing with Obsidian",
+      "slug": "organizing-with-obsidian",
+      "connections": 0
     }
   ],
   "connections": [],
   "metadata": {
-    "totalPosts": 2,
+    "totalPosts": 4,
     "totalConnections": 0,
     "maxNodesApplied": false,
-    "originalNodeCount": 2
+    "originalNodeCount": 4
   }
 }
