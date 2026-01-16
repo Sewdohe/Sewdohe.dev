@@ -7,7 +7,7 @@ tags:
   - pointless
 image: "[[change-neon.jpg]]"
 imageAlt:
-imageOG: false
+imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword:

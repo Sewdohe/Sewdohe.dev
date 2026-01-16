@@ -313,6 +313,7 @@ export const siteConfig: SiteConfig = {
     pages: [
       { title: "Posts", url: "/posts/" },
       { title: "Projects", url: "/projects/" },
+      { title: "Awesome-Lists", url: "/awesome-lists" },
       { title: "About", url: "/about/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]

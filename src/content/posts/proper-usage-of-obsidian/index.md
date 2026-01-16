@@ -8,7 +8,7 @@ tags:
   - software
 image: "[[obsidian-folder-tag.png]]"
 imageAlt: ""
-imageOG: false
+imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword: obsidian organization tags

@@ -9,7 +9,7 @@ tags:
   - terminal
 image: "[[minecraft-purple-block.png]]"
 imageAlt: ""
-imageOG: false
+imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
