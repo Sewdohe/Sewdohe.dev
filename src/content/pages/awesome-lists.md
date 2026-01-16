@@ -3,7 +3,10 @@ title: Awesome-Lists
 description: lists of things that I think are awesome!!!
 noIndex: false
 hideTOC: false
-draft: true
+draft: false
+aliases:
+  - awesome-lists
+  - index
 ---
 ## Youtube Channels
 

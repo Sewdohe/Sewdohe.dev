@@ -2,14 +2,30 @@
   "syncFolderName": true,
   "ctrlKey": true,
   "altKey": false,
-  "hideFolderNote": true,
+  "hideFolderNote": false,
   "templatePath": "",
   "autoCreate": false,
   "autoCreateFocusFiles": true,
   "autoCreateForAttachmentFolder": false,
   "autoCreateForFiles": false,
   "enableCollapsing": false,
-  "excludeFolders": [],
+  "excludeFolders": [
+    {
+      "type": "folder",
+      "id": "d79fe97f-a959-42a2-95de-13d7762205a7",
+      "path": "pages",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 0,
+      "excludeFromFolderOverview": false,
+      "string": "",
+      "hideInSettings": false,
+      "showFolderNote": false
+    }
+  ],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
   "underlineFolder": true,
@@ -62,7 +78,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "general",
+  "settingsTab": "file_explorer",
   "supportedFileTypes": [
     "md",
     "canvas",
