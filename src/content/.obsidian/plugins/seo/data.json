@@ -1,5 +1,5 @@
 {
-  "scanDirectories": "posts",
+  "scanDirectories": "posts, projects",
   "ignoreUnderscoreFiles": false,
   "enableMDXSupport": false,
   "keywordProperty": "targetKeyword",
@@ -9,7 +9,7 @@
   "slugProperty": "",
   "useFilenameAsSlug": true,
   "parentFolderSlugFilename": "index",
-  "titlePrefixSuffix": "",
+  "titlePrefixSuffix": "Sewdohe",
   "checkTitleLength": true,
   "checkHeadingOrder": true,
   "checkAltText": true,
