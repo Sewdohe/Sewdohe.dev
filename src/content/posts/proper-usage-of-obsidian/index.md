@@ -89,3 +89,5 @@ Find what is important in your life and categorize it. Make a template for it. D
 ## Thank you for reading 🙏
 
 I truly appreciate anyone taking the time to read my ramblings. I am new to writing and I know I'm not the best at it. I am welcome to any constructive criticism, in fact I am asking you for it. I would like to write more on my site and getting feedback is the best way for me to get better I think. I welcome you to leave a comment down below - I would enjoy the engagement, truly. Commenting does require a Github account unfortunately. I may switch up the comment system in the near future - depends how motivated I feel 😛
+
+If you enjoyed this post, check out my other [Obsidian Article](posts/organizing-with-obsidian/index.md) detailing how I track my flag hours at my [shitty flag-rate job](posts/flag-rate-jobs-are-evil/index.md) to make sure I don't get screwed out of my time! 🙃
