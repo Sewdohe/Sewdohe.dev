@@ -13,7 +13,7 @@ imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword: hyprland, window manager, linux, desktop enviornment
-draft: true
+draft: false
 ---
 ## Ahh, Hyprland 🤤
 
