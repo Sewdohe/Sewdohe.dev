@@ -17,7 +17,7 @@
     "description": "Personal blog and portfolio of Sewdohe",
     "author": "Josh Melton",
     "language": "en",
-    "faviconThemeAdaptive": true,
+    "faviconThemeAdaptive": false,
     "defaultOgImageAlt": "Astro Modular logo."
   },
   "layout": {
