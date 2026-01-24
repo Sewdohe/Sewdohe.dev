@@ -1,0 +1,15 @@
+{
+  "baseline-style@@font-interface-override": "overpass",
+  "baseline-style@@font-text-override": "rubik",
+  "baseline-style@@h1-font": "rubik",
+  "baseline-style@@h2-font": "rubik",
+  "baseline-style@@h3-font": "rubik",
+  "baseline-style@@h4-font": "rubik",
+  "baseline-style@@h5-font": "rubik",
+  "baseline-style@@h6-font": "rubik",
+  "baseline-style@@colorful-headings-text": true,
+  "baseline-style@@accented-interface": true,
+  "baseline-style@@color-scheme-light": "rose-pine-light",
+  "baseline-style@@color-scheme-dark": "mocha-dark",
+  "baseline-style@@color-scheme-accent": false
+}

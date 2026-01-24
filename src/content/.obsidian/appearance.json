@@ -1,9 +1,10 @@
 {
-  "cssTheme": "Oxygen",
+  "cssTheme": "Baseline",
   "showViewHeader": true,
   "showRibbon": false,
   "enabledCssSnippets": [
-    "astro-modular-styling"
+    "astro-modular-styling",
+    "base64-fonts"
   ],
   "theme": "system",
   "accentColor": ""
