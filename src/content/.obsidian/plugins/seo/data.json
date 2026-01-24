@@ -35,31 +35,29 @@
   "duplicateThreshold": 80,
   "cachedGlobalResults": [
     {
-      "file": "posts/vault-cms-guide.md",
-      "displayName": "Vault CMS Guide",
+      "file": "posts/megabonk-game-review/index.md",
+      "displayName": "Megabonk: Game Review",
       "checks": {
         "titleLength": [
           {
-            "passed": false,
-            "message": "Title too short: 15 characters",
-            "suggestion": "Aim for 30-60 characters",
-            "severity": "warning"
+            "passed": true,
+            "message": "Good title length: 31 characters (\"Megabonk: Game Review\" + \" Sewdohe\")",
+            "severity": "info"
           }
         ],
         "metaDescription": [
           {
             "passed": false,
-            "message": "Description too short: 62 characters",
+            "message": "Description too short: 38 characters",
             "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
         ],
         "titleH1Uniqueness": [
           {
-            "passed": false,
-            "message": "Meta title and H1 are identical",
-            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
-            "severity": "warning"
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
           }
         ],
         "keywordInTitle": [
@@ -71,10 +69,9 @@
         ],
         "keywordInDescription": [
           {
-            "passed": false,
-            "message": "Keyword not found in description",
-            "suggestion": "Include your target keyword in the description",
-            "severity": "warning"
+            "passed": true,
+            "message": "Keyword found in description",
+            "severity": "info"
           }
         ],
         "keywordInHeadings": [
@@ -86,16 +83,17 @@
         ],
         "keywordInSlug": [
           {
-            "passed": true,
-            "message": "Target keyword \"vault cms\" found in slug",
-            "severity": "info"
+            "passed": false,
+            "message": "Target keyword \"megabonk\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
           }
         ],
         "slugFormat": [],
         "keywordDensity": [
           {
             "passed": false,
-            "message": "Keyword density too low: 0.3%",
+            "message": "Keyword density too low: 0.9%",
             "suggestion": "Aim for at least 1% density",
             "severity": "warning"
           }
@@ -110,7 +108,287 @@
         "contentLength": [
           {
             "passed": true,
-            "message": "Good content length: 2443 words",
+            "message": "Good content length: 426 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.3 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 56.833333333333336,
+      "issuesCount": 0,
+      "warningsCount": 3,
+      "noticesCount": 0
+    },
+    {
+      "file": "posts/flag-rate-jobs-are-evil/index.md",
+      "displayName": "Flag-Rate Jobs are Evil",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 31 characters (Flag-Rate Jobs are Evil + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 78 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"\"\"\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 1422 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.4 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 42.833333333333336,
+      "issuesCount": 0,
+      "warningsCount": 6,
+      "noticesCount": 0
+    },
+    {
+      "file": "posts/hyprland-is-amazing/index.md",
+      "displayName": "Hyprland Is Amazing 💘",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 30 characters (Hyprland Is Amazing 💘 + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 58 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"hyprland, window manager, linux, desktop enviornment\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 540 words",
             "severity": "info"
           }
         ],
@@ -156,143 +434,227 @@
         "externalBrokenLinks": [
           {
             "passed": true,
-            "message": "External link: https://github.com/davidvkimball/obsidian-oxygen",
+            "message": "External link: https://waybar.org",
             "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
             "severity": "notice",
             "position": {
-              "line": 47,
-              "searchText": "https://github.com/davidvkimball/obsidian-oxygen",
-              "context": "## Theme\n\nFor out-of-the-box customization, [Oxygen](https://github.com/davidvkimball/obsidian-oxygen) theme is used, based on the [Minimal theme system](https://minimal.guide/home). It uses a slick color scheme that's highly customizable. \n\nThe [Oxygen Theme Settings](https://github.com/davidvkimball/obsidian-oxygen-settings) plugin is also installed by default, giving you complete control over your experience. You can even define your own color scheme presets. More on that [below](vault-cms-guide.md#Oxygen%20Theme%20Settings%20and%20Zen%20Mode)."
+              "line": 32,
+              "searchText": "https://waybar.org",
+              "context": "![screenshot of me making this blog post](screenshot-of-me-making-this-blog-post.png)\n\nyou see that bar at the top of the screen? I made that shit 😎 It's a piece of software called [Waybar](https://waybar.org). It's awesome...and it's mine. There is no other Waybar exactly like this one. I find it cool as hell 😅 If I wanted to add something else to it, I could. I can add **anything** to it, as a matter of fact. If I felt like going thru the trouble I could hook into my Google analytics API and show website visitors...your imagination is truly the limit here!\n\nAnywho I'm here to talk about Hyprland 😅 Check out what happens when I open a new window on the same desktop as Obsidian:"
             }
           },
           {
             "passed": true,
-            "message": "External link: https://minimal.guide/home",
+            "message": "External link: https://omarchy.org",
             "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
             "severity": "notice",
             "position": {
-              "line": 47,
-              "searchText": "https://minimal.guide/home",
-              "context": "## Theme\n\nFor out-of-the-box customization, [Oxygen](https://github.com/davidvkimball/obsidian-oxygen) theme is used, based on the [Minimal theme system](https://minimal.guide/home). It uses a slick color scheme that's highly customizable. \n\nThe [Oxygen Theme Settings](https://github.com/davidvkimball/obsidian-oxygen-settings) plugin is also installed by default, giving you complete control over your experience. You can even define your own color scheme presets. More on that [below](vault-cms-guide.md#Oxygen%20Theme%20Settings%20and%20Zen%20Mode)."
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://github.com/davidvkimball/obsidian-oxygen-settings",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 49,
-              "searchText": "https://github.com/davidvkimball/obsidian-oxygen-settings",
-              "context": "For out-of-the-box customization, [Oxygen](https://github.com/davidvkimball/obsidian-oxygen) theme is used, based on the [Minimal theme system](https://minimal.guide/home). It uses a slick color scheme that's highly customizable. \n\nThe [Oxygen Theme Settings](https://github.com/davidvkimball/obsidian-oxygen-settings) plugin is also installed by default, giving you complete control over your experience. You can even define your own color scheme presets. More on that [below](vault-cms-guide.md#Oxygen%20Theme%20Settings%20and%20Zen%20Mode).\n\n## CSS Snippets"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://github.com/kepano/obsidian-minimal",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 162,
-              "searchText": "https://github.com/kepano/obsidian-minimal",
-              "context": "The Oxygen Theme Settings plugin helps you customize your experience if you use the provided Oxygen Obsidian theme and can help you focus on writing.\n\nYou'll notice a wide variety of color scheme options, most of which were included in the [Minimal](https://github.com/kepano/obsidian-minimal) theme upon which Oxygen was based.\n\nShould you desire to hide any of the panels, you can use `CTRL + ALT Z` for the left side panel, `CTRL + ALT + X` for the right side panel, or `CTRL + ALT + S` for the tab bar. Pressing it again will reveal it again. "
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://github.com/mgmeyers/obsidian-style-settings",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 170,
-              "searchText": "https://github.com/mgmeyers/obsidian-style-settings",
-              "context": "Zen Mode offers another quick option to focus on your writing. Pressing `CTRL + SHIFT + Z` will enter Zen mode. When activated, all elements removed except for your content. Use the keystroke again to exit. \n\nIf you like, you can install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin for even more control over your experience.\n\n#### Using a Theme Other Than Oxygen"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://github.com/kepano/obsidian-hider",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 174,
-              "searchText": "https://github.com/kepano/obsidian-hider",
-              "context": "#### Using a Theme Other Than Oxygen\n\nIf you're just interested in hiding UI elements and wish to use a theme other than Oxygen, you can install the [Hider](https://github.com/kepano/obsidian-hider) plugin and use the aforementioned Style Settings plugin to hide the Properties heading and the \"Add Property\" button. For that use case specifically, you can also enable the `hide-properties-heading-and-add-properties-button.css` CSS snippet which you'll find under Settings > Appearance without using any plugins at all. \n\n### Paste Image Rename and Paste Image Into Property"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://obsidian.md/plugins?id=obsidian-git",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 214,
-              "searchText": "https://obsidian.md/plugins?id=obsidian-git",
-              "context": "### Git, Commander, and Status Bar Organizer\n\nWith the [Git](https://obsidian.md/plugins?id=obsidian-git) plugin, you can easily publish to your Astro blog without leaving Obsidian. Simply configure with git to enable it. By default, you'll see your current git status and count of files changed (if any) in the status bar on the bottom right.\n\nTo publish, you can use `CTRL + SHIFT + S` or click the \"commit-and-sync\" button on the status bar (added with the Commander plugin). Your changes will be committed and pushed to your remote repository automatically."
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://github.com/ViscousPot/GitSync",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 234,
-              "searchText": "https://github.com/ViscousPot/GitSync",
-              "context": "### Disabling the Git Plugin\n\nIt's recommended to disable the Git plugin on mobile and use something like [Git Sync](https://github.com/ViscousPot/GitSync) for iOS and Android (or [MGit](https://github.com/maks/MGit) just for Android) instead. The Git plugin is notoriously buggy on mobile so it's better to use something else. \n\nHere's how to disable it: "
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://github.com/maks/MGit",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 234,
-              "searchText": "https://github.com/maks/MGit",
-              "context": "### Disabling the Git Plugin\n\nIt's recommended to disable the Git plugin on mobile and use something like [Git Sync](https://github.com/ViscousPot/GitSync) for iOS and Android (or [MGit](https://github.com/maks/MGit) just for Android) instead. The Git plugin is notoriously buggy on mobile so it's better to use something else. \n\nHere's how to disable it: "
+              "line": 50,
+              "searchText": "https://omarchy.org",
+              "context": "Sure - it's an entirely different paradigm to tradtitional window-management but I'm telling you: *once you get used to this everything else sucks donkey ass*\n\nConfiguration is also easy-as-pie. Take a at this minimal config that comes default from [Omarchy OS](https://omarchy.org):\n\n```conf"
             }
           }
         ],
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 8.9 (Easy to read)",
+            "message": "Good reading level: 6.8 (Easy to read)",
             "severity": "info"
           }
         ]
       },
-      "overallScore": 66.25,
+      "overallScore": 40.47826086956522,
       "issuesCount": 0,
-      "warningsCount": 5,
-      "noticesCount": 9
+      "warningsCount": 6,
+      "noticesCount": 2
     },
     {
-      "file": "posts/sample-folder-based-post/index.md",
-      "displayName": "Sample Folder-Based Post",
+      "file": "posts/proper-usage-of-obsidian/index.md",
+      "displayName": "Proper Usage of Obsidian",
       "checks": {
         "titleLength": [
           {
-            "passed": false,
-            "message": "Title too short: 24 characters",
-            "suggestion": "Aim for 30-60 characters",
-            "severity": "warning"
+            "passed": true,
+            "message": "Good title length: 32 characters (Proper Usage of Obsidian + \" Sewdohe\")",
+            "severity": "info"
           }
         ],
         "metaDescription": [
           {
             "passed": false,
-            "message": "Description too short: 60 characters",
+            "message": "Description too short: 39 characters",
             "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
         ],
         "titleH1Uniqueness": [
           {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
             "passed": false,
-            "message": "Meta title and H1 are identical",
-            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
             "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"obsidian organization tags\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 1710 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": false,
+            "message": "Broken internal link: Google Analytics",
+            "suggestion": "Check if the file \"Google Analytics.md\" exists or update the link",
+            "severity": "error",
+            "position": {
+              "line": 31,
+              "searchText": "[[Google Analytics]]",
+              "context": "Essentially you treat your vault as a mind-dumping station. If you think of something of even minor importance - write that shit down! To me, it doesn't matter so much where the note goes. Over time you'll see categories arise from the chaos. But we'll deal with that later. At the moment of having a thought, memorialize it in a note. It's **such** a powerful thing to do. \n\nExample: Yesterday I was writing in my daily journal note about getting analytics working on my website again, literally just about how I was happy about it...but as I was writing, I realized the google analytics site was of importance to me...so I made a note about it. I made it as simply and as quickly as I could: by typing `[[Google Analytics]]` in Obsidian, it tried to make a link to that note. By right-clicking that link I was presented the option to turn that non-existing link into a note. Upon clicking the link to the note I had only a blank file - so the next step for me (considering it's a note about software) I applied my software-note template to it. That template looks like this:\n\n![my software note template](my-software-note-template.png)"
+            }
+          },
+          {
+            "passed": false,
+            "message": "Broken internal link: base-name",
+            "suggestion": "Check if the file \"base-name.md\" exists or update the link (anchor: #view-name)",
+            "severity": "error",
+            "position": {
+              "line": 85,
+              "searchText": "[[base-name#view-name]]",
+              "context": "![view-notes-list](view-notes-list.png)\n\nThese are my view notes. They are literally **just files which refer to the different views in my views base.** All you do is create a new note and link your base and specify which view you want it to show using the `![[base-name#view-name]]` syntax and Obsidian will show that view of that base inside of your note. I do this so that I can quickly jump to that list of notes using the quick-switcher (using the `crtl + O` keyboard shortcut or swiping down on android/IOS). It's just another method of convenience. A way to get from A to B with less friction - **the less you think about note taking, the more notes you will create.**\n\nFind what is important in your life and categorize it. Make a template for it. Define tags for the things, and just **write that shit down.** The rest will come over time if you use my method."
+            }
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://gettingthingsdone.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 27,
+              "searchText": "https://gettingthingsdone.com",
+              "context": "## Organization Method\n\nSo, I like to look at my entire vault as an **inbox**. If you're familiar with [GTD](https://gettingthingsdone.com) (getting things done method) you should be familiar with the inbox. \n\nEssentially you treat your vault as a mind-dumping station. If you think of something of even minor importance - write that shit down! To me, it doesn't matter so much where the note goes. Over time you'll see categories arise from the chaos. But we'll deal with that later. At the moment of having a thought, memorialize it in a note. It's **such** a powerful thing to do. "
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.5 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 40,
+      "issuesCount": 2,
+      "warningsCount": 6,
+      "noticesCount": 1
+    },
+    {
+      "file": "posts/corporate-america-makes-me-sad/index.md",
+      "displayName": "Corporate America Makes Me Sad",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 38 characters (Corporate America Makes Me Sad + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 25 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
           }
         ],
         "keywordInTitle": [
@@ -346,7 +708,7 @@
         "contentLength": [
           {
             "passed": false,
-            "message": "Content too short: 82 words",
+            "message": "Content too short: 111 words",
             "suggestion": "Aim for at least 300 words",
             "severity": "warning"
           }
@@ -357,7 +719,7 @@
         "altText": [
           {
             "passed": true,
-            "message": "All media elements have alt text",
+            "message": "No media elements in this post",
             "severity": "info"
           }
         ],
@@ -393,31 +755,37 @@
         "externalBrokenLinks": [
           {
             "passed": true,
-            "message": "No external links found",
-            "severity": "info"
+            "message": "External link: https://youtube.com/@biggtugg",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 17,
+              "searchText": "https://youtube.com/@biggtugg",
+              "context": "## Shit has hit the fan 💩\n\nI was watching a video from a YouTuber that I've never seen before, [Big Tug](https://youtube.com/@biggtugg)...and WOW has this man hit on something that is bothering me. I mean...I knew America is on a sharp decline but **wow** these companies are getting away with egregious shit nowadays. I guess this one in particular hit home for me because in either direction from my house, less than a mile away, is a Dollar General and a Family Dollar. \"Dollar\" stores. So they call them.\n\nNow, I do remember when things in a dollar store...well...costs a fucking dollar. Thaaaaaat is no longer the case in these stores."
+            }
           }
         ],
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 9.9 (Moderately easy to read)",
+            "message": "Good reading level: 5.6 (Very easy to read)",
             "severity": "info"
           }
         ]
       },
       "overallScore": 40,
       "issuesCount": 0,
-      "warningsCount": 9,
-      "noticesCount": 0
+      "warningsCount": 7,
+      "noticesCount": 1
     },
     {
-      "file": "posts/obsidian-embeds-demo.md",
-      "displayName": "Obsidian Embeds Demo",
+      "file": "posts/new-site/index.md",
+      "displayName": "New Site - Who dis?",
       "checks": {
         "titleLength": [
           {
             "passed": false,
-            "message": "Title too short: 20 characters",
+            "message": "Title too short: 27 characters (New Site - Who dis? + \" Sewdohe\")",
             "suggestion": "Aim for 30-60 characters",
             "severity": "warning"
           }
@@ -425,68 +793,61 @@
         "metaDescription": [
           {
             "passed": false,
-            "message": "Description too short: 39 characters",
+            "message": "Description too short: 32 characters",
             "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
         ],
         "titleH1Uniqueness": [
           {
-            "passed": false,
-            "message": "Meta title and H1 are identical",
-            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
-            "severity": "warning"
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
           }
         ],
         "keywordInTitle": [
           {
             "passed": true,
-            "message": "Keyword found in title",
-            "severity": "info"
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
           }
         ],
-        "keywordInDescription": [
-          {
-            "passed": true,
-            "message": "Keyword found in description",
-            "severity": "info"
-          }
-        ],
+        "keywordInDescription": [],
         "keywordInHeadings": [
           {
             "passed": true,
-            "message": "Keyword found in H1",
-            "severity": "info"
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
           }
         ],
         "keywordInSlug": [
           {
             "passed": true,
-            "message": "Target keyword \"obsidian embeds\" found in slug",
-            "severity": "info"
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
           }
         ],
         "slugFormat": [],
         "keywordDensity": [
           {
-            "passed": false,
-            "message": "Keyword density too low: 0.1%",
-            "suggestion": "Aim for at least 1% density",
-            "severity": "warning"
+            "passed": true,
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
           }
         ],
         "headingOrder": [
           {
             "passed": true,
-            "message": "Heading structure is correct",
+            "message": "No heading structure issues found",
             "severity": "info"
           }
         ],
         "contentLength": [
           {
-            "passed": true,
-            "message": "Good content length: 720 words",
-            "severity": "info"
+            "passed": false,
+            "message": "Content too short: 120 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
           }
         ],
         "duplicateTitles": [],
@@ -495,21 +856,15 @@
         "altText": [
           {
             "passed": true,
-            "message": "All media elements have alt text",
+            "message": "No media elements in this post",
             "severity": "info"
           }
         ],
         "imageFileNames": [
           {
-            "passed": false,
-            "message": "Image 2 has random file name: 1933196479801536736",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 53,
-              "searchText": "![Why doesn't everyone use Astro? Writing blog posts in markdown is beautiful.](https://x.com/davidvkimball/status/1933196479801536736)",
-              "context": "### Twitter/X Posts\n\n![Why doesn't everyone use Astro? Writing blog posts in markdown is beautiful.](https://x.com/davidvkimball/status/1933196479801536736)\n\nTwitter posts are embedded with theme-aware styling that matches your site's light/dark mode."
-            }
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
           }
         ],
         "nakedLinks": [
@@ -537,66 +892,64 @@
         "externalBrokenLinks": [
           {
             "passed": true,
-            "message": "External link: https://www.youtube.com/watch?v=ZhizarvwLnU",
+            "message": "External link: https://www.youtube.com/@davidvBonus",
             "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
             "severity": "notice",
             "position": {
-              "line": 47,
-              "searchText": "https://www.youtube.com/watch?v=ZhizarvwLnU",
-              "context": "### YouTube Videos\n\n![Astro Suite for Obsidian](https://www.youtube.com/watch?v=ZhizarvwLnU)\n\nYouTube videos are automatically embedded with responsive design and optimized settings."
+              "line": 20,
+              "searchText": "https://www.youtube.com/@davidvBonus",
+              "context": "I'm Sewdohe. Long time FOSS developer and software advocate. Former Minecraft server hoster. Lover of all things computing. Nice to meet you!\n\nYou've (somehow) stumbled across my new website, running the Astro-Modular theme from the awesome [David V. Kimble](https://www.youtube.com/@davidvBonus) who was gracious enough to release this awesome piece of FOSS honey for free to the public! I don't think I've ever enjoyed a workflow more than this.\n\nThis [Astro.JS](https://astro.build) template allows me to use an Obsidian vault as a CMS for my website - honestly some of the coolest shit I've ever seen as a developer! I'm literally excited to start publishing posts again and truly fluff my site up with content. "
             }
           },
           {
             "passed": true,
-            "message": "External link: https://x.com/davidvkimball/status/1933196479801536736",
+            "message": "External link: https://astro.build",
             "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
             "severity": "notice",
             "position": {
-              "line": 53,
-              "searchText": "https://x.com/davidvkimball/status/1933196479801536736",
-              "context": "### Twitter/X Posts\n\n![Why doesn't everyone use Astro? Writing blog posts in markdown is beautiful.](https://x.com/davidvkimball/status/1933196479801536736)\n\nTwitter posts are embedded with theme-aware styling that matches your site's light/dark mode."
+              "line": 22,
+              "searchText": "https://astro.build",
+              "context": "You've (somehow) stumbled across my new website, running the Astro-Modular theme from the awesome [David V. Kimble](https://www.youtube.com/@davidvBonus) who was gracious enough to release this awesome piece of FOSS honey for free to the public! I don't think I've ever enjoyed a workflow more than this.\n\nThis [Astro.JS](https://astro.build) template allows me to use an Obsidian vault as a CMS for my website - honestly some of the coolest shit I've ever seen as a developer! I'm literally excited to start publishing posts again and truly fluff my site up with content. \n\n🍻 Cheers to the future! 🍻"
             }
           }
         ],
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 8.6 (Easy to read)",
+            "message": "Good reading level: 6.1 (Easy to read)",
             "severity": "info"
           }
         ]
       },
-      "overallScore": 66.25,
+      "overallScore": 71.22727272727273,
       "issuesCount": 0,
-      "warningsCount": 5,
-      "noticesCount": 2
+      "warningsCount": 3,
+      "noticesCount": 6
     },
     {
-      "file": "posts/getting-started.md",
-      "displayName": "Getting Started",
+      "file": "posts/organizing-with-obsidian/index.md",
+      "displayName": "Organizing with Obsidian",
       "checks": {
         "titleLength": [
           {
-            "passed": false,
-            "message": "Title too short: 15 characters",
-            "suggestion": "Aim for 30-60 characters",
-            "severity": "warning"
+            "passed": true,
+            "message": "Good title length: 32 characters (Organizing with Obsidian + \" Sewdohe\")",
+            "severity": "info"
           }
         ],
         "metaDescription": [
           {
             "passed": false,
-            "message": "Description too short: 71 characters",
+            "message": "Description too short: 53 characters",
             "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
         ],
         "titleH1Uniqueness": [
           {
-            "passed": false,
-            "message": "Meta title and H1 are identical",
-            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
-            "severity": "warning"
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
           }
         ],
         "keywordInTitle": [
@@ -609,9 +962,10 @@
         ],
         "keywordInDescription": [
           {
-            "passed": true,
-            "message": "Keyword found in description",
-            "severity": "info"
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
           }
         ],
         "keywordInHeadings": [
@@ -625,7 +979,7 @@
         "keywordInSlug": [
           {
             "passed": false,
-            "message": "Target keyword \"astro blog quick start\" not found in slug",
+            "message": "Target keyword \"\"\"\" not found in slug",
             "suggestion": "Include your target keyword in the filename",
             "severity": "warning"
           }
@@ -649,7 +1003,333 @@
         "contentLength": [
           {
             "passed": true,
-            "message": "Good content length: 454 words",
+            "message": "Good content length: 597 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": false,
+            "message": "Broken internal link: obsidian-screenshot-1",
+            "suggestion": "Check if the file \"obsidian-screenshot-1.png.md\" exists or update the link",
+            "severity": "error",
+            "position": {
+              "line": 25,
+              "searchText": "[obsidian-screenshot-1](obsidian-screenshot-1.png)",
+              "context": "When starting obsidian up I have a homepage that I designed to show me relevant information for a given day:\n\n![obsidian-screenshot-1](obsidian-screenshot-1.png)\n\nThis \"homepage\" is responsible for tracking my work orders at work (that's a whole different write up lmao) as well as keeping track of any projects I'm currently working on. The projects at the bottom are actually links that when tapped/clicked will take you to the relevant note and tasks for that particular project. "
+            }
+          },
+          {
+            "passed": false,
+            "message": "Broken internal link: obsidian-screenshot-2",
+            "suggestion": "Check if the file \"obsidian-screenshot-2.png.md\" exists or update the link",
+            "severity": "error",
+            "position": {
+              "line": 30,
+              "searchText": "[obsidian-screenshot-2](obsidian-screenshot-2.png)",
+              "context": "You'll notice at the top of the note is a card for **properties**. These can be thought of as note \"data\" while the text in the note is just the \"content\". The notes data/properties can be used to make queries in obsidian based on what properties a note does/doesn't have or even it's particular values at any given time. Take a look at my weekly note file: \n\n![obsidian-screenshot-2](obsidian-screenshot-2.png)\n\n So where you see this week's notes is actually a **query** for other notes that were created during the same week. Each of my daily notes for that week returns true for my query to show me a list of all daily notes for each week. This is the **true** power of Obsidian - not only can you just dump your brain into it, but with a little forethought you can also **organize** your brain with it. It truly is a second brain when used correctly."
+            }
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 8.4 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 40,
+      "issuesCount": 2,
+      "warningsCount": 6,
+      "noticesCount": 0
+    },
+    {
+      "file": "posts/minecraft-modpacks-packwiz/index.md",
+      "displayName": "Minecraft Modpacks & Packwiz",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 36 characters (Minecraft Modpacks & Packwiz + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 96 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"\"\"\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 1442 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": false,
+            "message": "Wikilink media missing alt text: Pasted image 20251219231432.png",
+            "suggestion": "Add alt text using ![[media.png|alt text]] syntax or consider using standard markdown media syntax",
+            "severity": "error",
+            "position": {
+              "line": 135,
+              "searchText": "![[Pasted image 20251219231432.png]]",
+              "context": "\"Where do I get the mod names?\" you ask? Easy. Just use the end slug of any mod page URL and you're good to go. So, if the full mod url was: `https://modrinth.com/mod/sodium` just use the command `packwiz modrinth add sodium` \n\n![[Pasted image 20251219231432.png]]\n\nPackwiz will go and find the version of the mod for your Minecraft version and your modloader…and it will also let you know **if there is no version for your MC version or modloader** which is really handy as it prevents you from running into version conflict errors before they ever can happen. Packwiz will also **inform you of any mod dependencies and auto-install them** along with the mod that you want. It's really, **really** handy I swear!"
+            }
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": false,
+            "message": "Naked link found: https://github.com/packwiz/packwiz/actions",
+            "suggestion": "Convert to markdown link format: [link text](url)",
+            "severity": "warning",
+            "position": {
+              "line": 82,
+              "searchText": "https://github.com/packwiz/packwiz/actions",
+              "context": "##### Method 3: Manual Installation (The \"Old School\" Way)\n\n1. Go to the [packwiz GitHub Actions](https://www.google.com/search?q=https://github.com/packwiz/packwiz/actions) page and click on the latest successful build.\n2. Scroll down to **Artifacts** and download the `windows-amd64` zip file.\n3. Extract the `packwiz.exe` to a folder (e.g., `C:\\Tools\\packwiz`)."
+            }
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://go.dev/dl/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 70,
+              "searchText": "https://go.dev/dl/",
+              "context": "##### Method 2: Using Go (For Developers)\n\nIf you already have [Go](https://go.dev/dl/) installed for development, you can compile the latest version directly from the source.\n\n1. Open your terminal and run:"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.google.com/search?q=https://github.com/packwiz/packwiz/actions",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 82,
+              "searchText": "https://www.google.com/search?q=https://github.com/packwiz/packwiz/actions",
+              "context": "##### Method 3: Manual Installation (The \"Old School\" Way)\n\n1. Go to the [packwiz GitHub Actions](https://www.google.com/search?q=https://github.com/packwiz/packwiz/actions) page and click on the latest successful build.\n2. Scroll down to **Artifacts** and download the `windows-amd64` zip file.\n3. Extract the `packwiz.exe` to a folder (e.g., `C:\\Tools\\packwiz`)."
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.8 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 40,
+      "issuesCount": 1,
+      "warningsCount": 7,
+      "noticesCount": 2
+    },
+    {
+      "file": "posts/book-review-redwall/index.md",
+      "displayName": "Book Review: Redwall",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 30 characters (\"Book Review: Redwall\" + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 63 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"\"\"\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 617 words",
             "severity": "info"
           }
         ],
@@ -702,24 +1382,24 @@
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 8.4 (Easy to read)",
+            "message": "Good reading level: 6.9 (Easy to read)",
             "severity": "info"
           }
         ]
       },
-      "overallScore": 40,
+      "overallScore": 42.833333333333336,
       "issuesCount": 0,
-      "warningsCount": 7,
+      "warningsCount": 6,
       "noticesCount": 0
     },
     {
-      "file": "posts/formatting-reference.md",
-      "displayName": "Formatting Reference",
+      "file": "projects/navi-discord-bot/index.md",
+      "displayName": "Navi: Discord Bot",
       "checks": {
         "titleLength": [
           {
             "passed": false,
-            "message": "Title too short: 20 characters",
+            "message": "Title too short: 27 characters (\"Navi: Discord Bot\" + \" Sewdohe\")",
             "suggestion": "Aim for 30-60 characters",
             "severity": "warning"
           }
@@ -727,23 +1407,22 @@
         "metaDescription": [
           {
             "passed": false,
-            "message": "Description too short: 99 characters",
+            "message": "Description too short: 66 characters",
             "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
         ],
         "titleH1Uniqueness": [
           {
-            "passed": false,
-            "message": "Meta title and H1 are identical",
-            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
-            "severity": "warning"
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
           }
         ],
         "keywordInTitle": [
           {
             "passed": true,
-            "message": "No valid keyword defined in properties",
+            "message": "No targetKeyword defined in properties",
             "severity": "notice"
           }
         ],
@@ -751,14 +1430,14 @@
         "keywordInHeadings": [
           {
             "passed": true,
-            "message": "No valid keyword defined in properties",
+            "message": "No targetKeyword defined in properties",
             "severity": "notice"
           }
         ],
         "keywordInSlug": [
           {
             "passed": true,
-            "message": "No valid keyword defined in properties",
+            "message": "No targetKeyword defined in properties",
             "severity": "notice"
           }
         ],
@@ -766,27 +1445,151 @@
         "keywordDensity": [
           {
             "passed": true,
-            "message": "No valid keyword defined in properties",
+            "message": "No targetKeyword defined in properties",
             "severity": "notice"
           }
         ],
         "headingOrder": [
           {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
             "passed": false,
-            "message": "\"Heading 1\" (H1) appears after H3",
-            "suggestion": "H1 should be the first heading or not used at all",
-            "severity": "warning",
-            "position": {
-              "line": 35,
-              "searchText": "# Heading 1",
-              "context": "### Headings\n\n# Heading 1\n## Heading 2\n### Heading 3"
-            }
+            "message": "Content too short: 234 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.5 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 73.5,
+      "issuesCount": 0,
+      "warningsCount": 3,
+      "noticesCount": 4
+    },
+    {
+      "file": "projects/neocode-frictionless-vimming/index.md",
+      "displayName": "NeoCode - Frictionless Vimming",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 38 characters (NeoCode - Frictionless Vimming + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 84 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInDescription": [],
+        "keywordInHeadings": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
           }
         ],
         "contentLength": [
           {
             "passed": true,
-            "message": "Good content length: 1198 words",
+            "message": "Good content length: 929 words",
             "severity": "info"
           }
         ],
@@ -809,26 +1612,151 @@
         ],
         "nakedLinks": [
           {
-            "passed": false,
-            "message": "Naked link found: https://example.com",
-            "suggestion": "Convert to markdown link format: [link text](url)",
-            "severity": "warning",
-            "position": {
-              "line": 225,
-              "searchText": "https://example.com",
-              "context": "This is a [reference link][1] and this is another [reference link][markdown].\n\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n"
-            }
-          },
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
           {
             "passed": false,
-            "message": "Naked link found: https://daringfireball.net/projects/markdown/",
-            "suggestion": "Convert to markdown link format: [link text](url)",
-            "severity": "warning",
+            "message": "Broken internal link: show-off",
+            "suggestion": "Check if the file \"newcode-new-new.gif.md\" exists or update the link",
+            "severity": "error",
             "position": {
-              "line": 226,
-              "searchText": "https://daringfireball.net/projects/markdown/",
-              "context": "\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n\n## Code Blocks"
+              "line": 27,
+              "searchText": "[show-off](newcode-new-new.gif)",
+              "context": "The config was made to be a simple as possible. I think any setting you could need to change would be found right where you expect it to be.\n\n![show-off](newcode-new-new.gif)  \nNeoCode with it's new Catppuccin look running in Neovide using the multigrid flag for fancy animations\n"
             }
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://discord.gg/9tZq3WrU4p",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 41,
+              "searchText": "https://discord.gg/9tZq3WrU4p",
+              "context": "### Community\n\nThis project is actually growing! I'm stoked!! Join the [Discord](https://discord.gg/9tZq3WrU4p)\n\n### Dependencies:"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.9 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 81.31818181818181,
+      "issuesCount": 1,
+      "warningsCount": 1,
+      "noticesCount": 5
+    },
+    {
+      "file": "projects/create-blockchain/index.md",
+      "displayName": "Create: Blockchain",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 28 characters (\"Create: Blockchain\" + \" Sewdohe\")",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 63 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInDescription": [],
+        "keywordInHeadings": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 579 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
           }
         ],
         "brokenLinks": [
@@ -849,74 +1777,24 @@
         "externalBrokenLinks": [
           {
             "passed": true,
-            "message": "External link: https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 121,
-              "searchText": "https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
-              "context": "\n![Mountains](/posts/attachments/mountains.png)\n*Photo by [Antoine Rault](https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*\n\n#### Multiple Image Layouts"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 121,
-              "searchText": "https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral",
-              "context": "\n![Mountains](/posts/attachments/mountains.png)\n*Photo by [Antoine Rault](https://unsplash.com/@antoinerault?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*\n\n#### Multiple Image Layouts"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://obsidian.md",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 159,
-              "searchText": "https://obsidian.md",
-              "context": "### Linked Images\n\n[![Mountains](/posts/attachments/mountains.png)](https://obsidian.md)\n\n```"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://example.com",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 225,
-              "searchText": "https://example.com",
-              "context": "This is a [reference link][1] and this is another [reference link][markdown].\n\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://daringfireball.net/projects/markdown/",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 226,
-              "searchText": "https://daringfireball.net/projects/markdown/",
-              "context": "\n[1]: https://example.com\n[markdown]: https://daringfireball.net/projects/markdown/\n\n## Code Blocks"
-            }
+            "message": "No external links found",
+            "severity": "info"
           }
         ],
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 7.0 (Easy to read)",
+            "message": "Good reading level: 9.9 (Moderately easy to read)",
             "severity": "info"
           }
         ]
       },
-      "overallScore": 47,
+      "overallScore": 82.33333333333333,
       "issuesCount": 0,
-      "warningsCount": 6,
-      "noticesCount": 9
+      "warningsCount": 2,
+      "noticesCount": 4
     }
   ],
-  "lastScanTimestamp": 1768000233644,
+  "lastScanTimestamp": 1769278567945,
   "showNotices": true
 }

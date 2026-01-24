@@ -37,4 +37,6 @@ So, yes, you can appeal to a broad audience by making the game super accessible 
 
 I'm working on getting some gameplay videos and screenshots of the game 😋
 
+Will finish soon!
+
 
