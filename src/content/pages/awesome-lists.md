@@ -47,3 +47,15 @@ Hope you find something you enjoy!
 	- This guy **loves** old hardware, and he **knows** about it. He's even produced his very own replica of the Commodore 64 that you can purchase and build yourself! I will do this **one day!**
 - [Tested (Adam Savage)](https://www.youtube.com/@tested)
 	- I'm not sure why but I could just listen to Adam Savage talk for hours - he sounds so wise and down to earth. Watching him work is akin to watching an artist paint on a canvas - the things he can do amaze me 🤯
+
+
+## Awesome-Lists
+
+This is a list of awesome-lists that I think are awesome!
+
+
+> [!NOTE]  Awesome Lists?
+> These are lists of "awesome things" for different categories. The lists are not made by me personally but I'm sure people will find something interesting here!
+
+- [Awesome-Shizuku](https://github.com/timschneeb/awesome-shizuku) (Android)
+	- These are cool apps that make use of the app [Shizuku](https://shizuku.rikka.app) which gives some root capabilities on Android without needing root. Rooting gets harder every year it seems 😮‍💨
