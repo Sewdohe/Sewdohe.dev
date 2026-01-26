@@ -35,440 +35,6 @@
   "duplicateThreshold": 80,
   "cachedGlobalResults": [
     {
-      "file": "posts/megabonk-game-review/index.md",
-      "displayName": "Megabonk: Game Review",
-      "checks": {
-        "titleLength": [
-          {
-            "passed": true,
-            "message": "Good title length: 31 characters (\"Megabonk: Game Review\" + \" Sewdohe\")",
-            "severity": "info"
-          }
-        ],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "Description too short: 38 characters",
-            "suggestion": "Aim for 120-160 characters",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [
-          {
-            "passed": true,
-            "message": "Meta title and H1 are unique (prefix/suffix configured)",
-            "severity": "info"
-          }
-        ],
-        "keywordInTitle": [
-          {
-            "passed": true,
-            "message": "Keyword found in title",
-            "severity": "info"
-          }
-        ],
-        "keywordInDescription": [
-          {
-            "passed": true,
-            "message": "Keyword found in description",
-            "severity": "info"
-          }
-        ],
-        "keywordInHeadings": [
-          {
-            "passed": true,
-            "message": "Keyword found in H1",
-            "severity": "info"
-          }
-        ],
-        "keywordInSlug": [
-          {
-            "passed": false,
-            "message": "Target keyword \"megabonk\" not found in slug",
-            "suggestion": "Include your target keyword in the filename",
-            "severity": "warning"
-          }
-        ],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": false,
-            "message": "Keyword density too low: 0.9%",
-            "suggestion": "Aim for at least 1% density",
-            "severity": "warning"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "Heading structure is correct",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": true,
-            "message": "Good content length: 426 words",
-            "severity": "info"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "No media elements in this post",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No external links found",
-            "severity": "info"
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 6.3 (Easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 56.833333333333336,
-      "issuesCount": 0,
-      "warningsCount": 3,
-      "noticesCount": 0
-    },
-    {
-      "file": "posts/flag-rate-jobs-are-evil/index.md",
-      "displayName": "Flag-Rate Jobs are Evil",
-      "checks": {
-        "titleLength": [
-          {
-            "passed": true,
-            "message": "Good title length: 31 characters (Flag-Rate Jobs are Evil + \" Sewdohe\")",
-            "severity": "info"
-          }
-        ],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "Description too short: 78 characters",
-            "suggestion": "Aim for 120-160 characters",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [
-          {
-            "passed": true,
-            "message": "Meta title and H1 are unique (prefix/suffix configured)",
-            "severity": "info"
-          }
-        ],
-        "keywordInTitle": [
-          {
-            "passed": false,
-            "message": "Keyword not found in title",
-            "suggestion": "Include your target keyword in the title",
-            "severity": "warning"
-          }
-        ],
-        "keywordInDescription": [
-          {
-            "passed": false,
-            "message": "Keyword not found in description",
-            "suggestion": "Include your target keyword in the description",
-            "severity": "warning"
-          }
-        ],
-        "keywordInHeadings": [
-          {
-            "passed": false,
-            "message": "Keyword not found in H1",
-            "suggestion": "Include your target keyword in the H1 heading for better SEO",
-            "severity": "warning"
-          }
-        ],
-        "keywordInSlug": [
-          {
-            "passed": false,
-            "message": "Target keyword \"\"\"\" not found in slug",
-            "suggestion": "Include your target keyword in the filename",
-            "severity": "warning"
-          }
-        ],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": false,
-            "message": "Keyword density too low: 0.0%",
-            "suggestion": "Aim for at least 1% density",
-            "severity": "warning"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "No heading structure issues found",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": true,
-            "message": "Good content length: 1422 words",
-            "severity": "info"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "No media elements in this post",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No external links found",
-            "severity": "info"
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 5.4 (Very easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 42.833333333333336,
-      "issuesCount": 0,
-      "warningsCount": 6,
-      "noticesCount": 0
-    },
-    {
-      "file": "posts/hyprland-is-amazing/index.md",
-      "displayName": "Hyprland Is Amazing 💘",
-      "checks": {
-        "titleLength": [
-          {
-            "passed": true,
-            "message": "Good title length: 30 characters (Hyprland Is Amazing 💘 + \" Sewdohe\")",
-            "severity": "info"
-          }
-        ],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "Description too short: 58 characters",
-            "suggestion": "Aim for 120-160 characters",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [
-          {
-            "passed": true,
-            "message": "Meta title and H1 are unique (prefix/suffix configured)",
-            "severity": "info"
-          }
-        ],
-        "keywordInTitle": [
-          {
-            "passed": false,
-            "message": "Keyword not found in title",
-            "suggestion": "Include your target keyword in the title",
-            "severity": "warning"
-          }
-        ],
-        "keywordInDescription": [
-          {
-            "passed": false,
-            "message": "Keyword not found in description",
-            "suggestion": "Include your target keyword in the description",
-            "severity": "warning"
-          }
-        ],
-        "keywordInHeadings": [
-          {
-            "passed": false,
-            "message": "Keyword not found in H1",
-            "suggestion": "Include your target keyword in the H1 heading for better SEO",
-            "severity": "warning"
-          }
-        ],
-        "keywordInSlug": [
-          {
-            "passed": false,
-            "message": "Target keyword \"hyprland, window manager, linux, desktop enviornment\" not found in slug",
-            "suggestion": "Include your target keyword in the filename",
-            "severity": "warning"
-          }
-        ],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": false,
-            "message": "Keyword density too low: 0.0%",
-            "suggestion": "Aim for at least 1% density",
-            "severity": "warning"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "Heading structure is correct",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": true,
-            "message": "Good content length: 540 words",
-            "severity": "info"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "All media elements have alt text",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "External link: https://waybar.org",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 32,
-              "searchText": "https://waybar.org",
-              "context": "![screenshot of me making this blog post](screenshot-of-me-making-this-blog-post.png)\n\nyou see that bar at the top of the screen? I made that shit 😎 It's a piece of software called [Waybar](https://waybar.org). It's awesome...and it's mine. There is no other Waybar exactly like this one. I find it cool as hell 😅 If I wanted to add something else to it, I could. I can add **anything** to it, as a matter of fact. If I felt like going thru the trouble I could hook into my Google analytics API and show website visitors...your imagination is truly the limit here!\n\nAnywho I'm here to talk about Hyprland 😅 Check out what happens when I open a new window on the same desktop as Obsidian:"
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://omarchy.org",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 50,
-              "searchText": "https://omarchy.org",
-              "context": "Sure - it's an entirely different paradigm to tradtitional window-management but I'm telling you: *once you get used to this everything else sucks donkey ass*\n\nConfiguration is also easy-as-pie. Take a at this minimal config that comes default from [Omarchy OS](https://omarchy.org):\n\n```conf"
-            }
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 6.8 (Easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 40.47826086956522,
-      "issuesCount": 0,
-      "warningsCount": 6,
-      "noticesCount": 2
-    },
-    {
       "file": "posts/proper-usage-of-obsidian/index.md",
       "displayName": "Proper Usage of Obsidian",
       "checks": {
@@ -482,7 +48,7 @@
         "metaDescription": [
           {
             "passed": false,
-            "message": "Description too short: 39 characters",
+            "message": "Description too short: 83 characters",
             "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
@@ -521,7 +87,7 @@
         "keywordInSlug": [
           {
             "passed": false,
-            "message": "Target keyword \"obsidian organization tags\" not found in slug",
+            "message": "Target keyword \"Obsidian organize tags\" not found in slug",
             "suggestion": "Include your target keyword in the filename",
             "severity": "warning"
           }
@@ -630,301 +196,6 @@
       "issuesCount": 2,
       "warningsCount": 6,
       "noticesCount": 1
-    },
-    {
-      "file": "posts/corporate-america-makes-me-sad/index.md",
-      "displayName": "Corporate America Makes Me Sad",
-      "checks": {
-        "titleLength": [
-          {
-            "passed": true,
-            "message": "Good title length: 38 characters (Corporate America Makes Me Sad + \" Sewdohe\")",
-            "severity": "info"
-          }
-        ],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "Description too short: 25 characters",
-            "suggestion": "Aim for 120-160 characters",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [
-          {
-            "passed": true,
-            "message": "Meta title and H1 are unique (prefix/suffix configured)",
-            "severity": "info"
-          }
-        ],
-        "keywordInTitle": [
-          {
-            "passed": false,
-            "message": "Keyword not found in title",
-            "suggestion": "Include your target keyword in the title",
-            "severity": "warning"
-          }
-        ],
-        "keywordInDescription": [
-          {
-            "passed": false,
-            "message": "Keyword not found in description",
-            "suggestion": "Include your target keyword in the description",
-            "severity": "warning"
-          }
-        ],
-        "keywordInHeadings": [
-          {
-            "passed": false,
-            "message": "Keyword not found in H1",
-            "suggestion": "Include your target keyword in the H1 heading for better SEO",
-            "severity": "warning"
-          }
-        ],
-        "keywordInSlug": [
-          {
-            "passed": false,
-            "message": "Target keyword \"\"\"\" not found in slug",
-            "suggestion": "Include your target keyword in the filename",
-            "severity": "warning"
-          }
-        ],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": false,
-            "message": "Keyword density too low: 0.0%",
-            "suggestion": "Aim for at least 1% density",
-            "severity": "warning"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "Heading structure is correct",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": false,
-            "message": "Content too short: 111 words",
-            "suggestion": "Aim for at least 300 words",
-            "severity": "warning"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "No media elements in this post",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "External link: https://youtube.com/@biggtugg",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 17,
-              "searchText": "https://youtube.com/@biggtugg",
-              "context": "## Shit has hit the fan 💩\n\nI was watching a video from a YouTuber that I've never seen before, [Big Tug](https://youtube.com/@biggtugg)...and WOW has this man hit on something that is bothering me. I mean...I knew America is on a sharp decline but **wow** these companies are getting away with egregious shit nowadays. I guess this one in particular hit home for me because in either direction from my house, less than a mile away, is a Dollar General and a Family Dollar. \"Dollar\" stores. So they call them.\n\nNow, I do remember when things in a dollar store...well...costs a fucking dollar. Thaaaaaat is no longer the case in these stores."
-            }
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 5.6 (Very easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 40,
-      "issuesCount": 0,
-      "warningsCount": 7,
-      "noticesCount": 1
-    },
-    {
-      "file": "posts/new-site/index.md",
-      "displayName": "New Site - Who dis?",
-      "checks": {
-        "titleLength": [
-          {
-            "passed": false,
-            "message": "Title too short: 27 characters (New Site - Who dis? + \" Sewdohe\")",
-            "suggestion": "Aim for 30-60 characters",
-            "severity": "warning"
-          }
-        ],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "Description too short: 32 characters",
-            "suggestion": "Aim for 120-160 characters",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [
-          {
-            "passed": true,
-            "message": "Meta title and H1 are unique (prefix/suffix configured)",
-            "severity": "info"
-          }
-        ],
-        "keywordInTitle": [
-          {
-            "passed": true,
-            "message": "No valid keyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "keywordInDescription": [],
-        "keywordInHeadings": [
-          {
-            "passed": true,
-            "message": "No valid keyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "keywordInSlug": [
-          {
-            "passed": true,
-            "message": "No valid keyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": true,
-            "message": "No valid keyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "No heading structure issues found",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": false,
-            "message": "Content too short: 120 words",
-            "suggestion": "Aim for at least 300 words",
-            "severity": "warning"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "No media elements in this post",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "External link: https://www.youtube.com/@davidvBonus",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 20,
-              "searchText": "https://www.youtube.com/@davidvBonus",
-              "context": "I'm Sewdohe. Long time FOSS developer and software advocate. Former Minecraft server hoster. Lover of all things computing. Nice to meet you!\n\nYou've (somehow) stumbled across my new website, running the Astro-Modular theme from the awesome [David V. Kimble](https://www.youtube.com/@davidvBonus) who was gracious enough to release this awesome piece of FOSS honey for free to the public! I don't think I've ever enjoyed a workflow more than this.\n\nThis [Astro.JS](https://astro.build) template allows me to use an Obsidian vault as a CMS for my website - honestly some of the coolest shit I've ever seen as a developer! I'm literally excited to start publishing posts again and truly fluff my site up with content. "
-            }
-          },
-          {
-            "passed": true,
-            "message": "External link: https://astro.build",
-            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
-            "severity": "notice",
-            "position": {
-              "line": 22,
-              "searchText": "https://astro.build",
-              "context": "You've (somehow) stumbled across my new website, running the Astro-Modular theme from the awesome [David V. Kimble](https://www.youtube.com/@davidvBonus) who was gracious enough to release this awesome piece of FOSS honey for free to the public! I don't think I've ever enjoyed a workflow more than this.\n\nThis [Astro.JS](https://astro.build) template allows me to use an Obsidian vault as a CMS for my website - honestly some of the coolest shit I've ever seen as a developer! I'm literally excited to start publishing posts again and truly fluff my site up with content. \n\n🍻 Cheers to the future! 🍻"
-            }
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 6.1 (Easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 71.22727272727273,
-      "issuesCount": 0,
-      "warningsCount": 3,
-      "noticesCount": 6
     },
     {
       "file": "posts/organizing-with-obsidian/index.md",
@@ -1082,6 +353,154 @@
       "issuesCount": 2,
       "warningsCount": 6,
       "noticesCount": 0
+    },
+    {
+      "file": "posts/new-site/index.md",
+      "displayName": "New Site - Who dis?",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 27 characters (New Site - Who dis? + \" Sewdohe\")",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 32 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": true,
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInDescription": [],
+        "keywordInHeadings": [
+          {
+            "passed": true,
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": true,
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": true,
+            "message": "No valid keyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 120 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://www.youtube.com/@davidvBonus",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 20,
+              "searchText": "https://www.youtube.com/@davidvBonus",
+              "context": "I'm Sewdohe. Long time FOSS developer and software advocate. Former Minecraft server hoster. Lover of all things computing. Nice to meet you!\n\nYou've (somehow) stumbled across my new website, running the Astro-Modular theme from the awesome [David V. Kimble](https://www.youtube.com/@davidvBonus) who was gracious enough to release this awesome piece of FOSS honey for free to the public! I don't think I've ever enjoyed a workflow more than this.\n\nThis [Astro.JS](https://astro.build) template allows me to use an Obsidian vault as a CMS for my website - honestly some of the coolest shit I've ever seen as a developer! I'm literally excited to start publishing posts again and truly fluff my site up with content. "
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://astro.build",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 22,
+              "searchText": "https://astro.build",
+              "context": "You've (somehow) stumbled across my new website, running the Astro-Modular theme from the awesome [David V. Kimble](https://www.youtube.com/@davidvBonus) who was gracious enough to release this awesome piece of FOSS honey for free to the public! I don't think I've ever enjoyed a workflow more than this.\n\nThis [Astro.JS](https://astro.build) template allows me to use an Obsidian vault as a CMS for my website - honestly some of the coolest shit I've ever seen as a developer! I'm literally excited to start publishing posts again and truly fluff my site up with content. \n\n🍻 Cheers to the future! 🍻"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.1 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 71.22727272727273,
+      "issuesCount": 0,
+      "warningsCount": 3,
+      "noticesCount": 6
     },
     {
       "file": "posts/minecraft-modpacks-packwiz/index.md",
@@ -1253,6 +672,587 @@
       "noticesCount": 2
     },
     {
+      "file": "posts/megabonk-game-review/index.md",
+      "displayName": "Megabonk: Game Review",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 31 characters (\"Megabonk: Game Review\" + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 38 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": true,
+            "message": "Keyword found in title",
+            "severity": "info"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": true,
+            "message": "Keyword found in description",
+            "severity": "info"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": true,
+            "message": "Keyword found in H1",
+            "severity": "info"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"megabonk\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.9%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 429 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.3 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 56.833333333333336,
+      "issuesCount": 0,
+      "warningsCount": 3,
+      "noticesCount": 0
+    },
+    {
+      "file": "posts/hyprland-is-amazing/index.md",
+      "displayName": "Hyprland Is Amazing 💘",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 30 characters (Hyprland Is Amazing 💘 + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 58 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"hyprland, window manager, linux, desktop enviornment\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 540 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://waybar.org",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 32,
+              "searchText": "https://waybar.org",
+              "context": "![screenshot of me making this blog post](screenshot-of-me-making-this-blog-post.png)\n\nyou see that bar at the top of the screen? I made that shit 😎 It's a piece of software called [Waybar](https://waybar.org). It's awesome...and it's mine. There is no other Waybar exactly like this one. I find it cool as hell 😅 If I wanted to add something else to it, I could. I can add **anything** to it, as a matter of fact. If I felt like going thru the trouble I could hook into my Google analytics API and show website visitors...your imagination is truly the limit here!\n\nAnywho I'm here to talk about Hyprland 😅 Check out what happens when I open a new window on the same desktop as Obsidian:"
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://omarchy.org",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 50,
+              "searchText": "https://omarchy.org",
+              "context": "Sure - it's an entirely different paradigm to tradtitional window-management but I'm telling you: *once you get used to this everything else sucks donkey ass*\n\nConfiguration is also easy-as-pie. Take a at this minimal config that comes default from [Omarchy OS](https://omarchy.org):\n\n```conf"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.8 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 40.47826086956522,
+      "issuesCount": 0,
+      "warningsCount": 6,
+      "noticesCount": 2
+    },
+    {
+      "file": "posts/flag-rate-jobs-are-evil/index.md",
+      "displayName": "Flag-Rate Jobs are Evil",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 31 characters (Flag-Rate Jobs are Evil + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 78 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"\"\"\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 1422 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.4 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 42.833333333333336,
+      "issuesCount": 0,
+      "warningsCount": 6,
+      "noticesCount": 0
+    },
+    {
+      "file": "posts/corporate-america-makes-me-sad/index.md",
+      "displayName": "Corporate America Makes Me Sad",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 38 characters (Corporate America Makes Me Sad + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 25 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"\"\"\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 111 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://youtube.com/@biggtugg",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 17,
+              "searchText": "https://youtube.com/@biggtugg",
+              "context": "## Shit has hit the fan 💩\n\nI was watching a video from a YouTuber that I've never seen before, [Big Tug](https://youtube.com/@biggtugg)...and WOW has this man hit on something that is bothering me. I mean...I knew America is on a sharp decline but **wow** these companies are getting away with egregious shit nowadays. I guess this one in particular hit home for me because in either direction from my house, less than a mile away, is a Dollar General and a Family Dollar. \"Dollar\" stores. So they call them.\n\nNow, I do remember when things in a dollar store...well...costs a fucking dollar. Thaaaaaat is no longer the case in these stores."
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.6 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 40,
+      "issuesCount": 0,
+      "warningsCount": 7,
+      "noticesCount": 1
+    },
+    {
       "file": "posts/book-review-redwall/index.md",
       "displayName": "Book Review: Redwall",
       "checks": {
@@ -1391,137 +1391,6 @@
       "issuesCount": 0,
       "warningsCount": 6,
       "noticesCount": 0
-    },
-    {
-      "file": "projects/navi-discord-bot/index.md",
-      "displayName": "Navi: Discord Bot",
-      "checks": {
-        "titleLength": [
-          {
-            "passed": false,
-            "message": "Title too short: 27 characters (\"Navi: Discord Bot\" + \" Sewdohe\")",
-            "suggestion": "Aim for 30-60 characters",
-            "severity": "warning"
-          }
-        ],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "Description too short: 66 characters",
-            "suggestion": "Aim for 120-160 characters",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [
-          {
-            "passed": true,
-            "message": "Meta title and H1 are unique (prefix/suffix configured)",
-            "severity": "info"
-          }
-        ],
-        "keywordInTitle": [
-          {
-            "passed": true,
-            "message": "No targetKeyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "keywordInDescription": [],
-        "keywordInHeadings": [
-          {
-            "passed": true,
-            "message": "No targetKeyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "keywordInSlug": [
-          {
-            "passed": true,
-            "message": "No targetKeyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": true,
-            "message": "No targetKeyword defined in properties",
-            "severity": "notice"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "Heading structure is correct",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": false,
-            "message": "Content too short: 234 words",
-            "suggestion": "Aim for at least 300 words",
-            "severity": "warning"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "No media elements in this post",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No external links found",
-            "severity": "info"
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 6.5 (Easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 73.5,
-      "issuesCount": 0,
-      "warningsCount": 3,
-      "noticesCount": 4
     },
     {
       "file": "projects/neocode-frictionless-vimming/index.md",
@@ -1665,6 +1534,137 @@
       "noticesCount": 5
     },
     {
+      "file": "projects/navi-discord-bot/index.md",
+      "displayName": "Navi: Discord Bot",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": false,
+            "message": "Title too short: 27 characters (\"Navi: Discord Bot\" + \" Sewdohe\")",
+            "suggestion": "Aim for 30-60 characters",
+            "severity": "warning"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": false,
+            "message": "Description too short: 66 characters",
+            "suggestion": "Aim for 120-160 characters",
+            "severity": "warning"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInDescription": [],
+        "keywordInHeadings": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": true,
+            "message": "No targetKeyword defined in properties",
+            "severity": "notice"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": false,
+            "message": "Content too short: 234 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "No media elements in this post",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No external links found",
+            "severity": "info"
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 6.5 (Easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 73.5,
+      "issuesCount": 0,
+      "warningsCount": 3,
+      "noticesCount": 4
+    },
+    {
       "file": "projects/create-blockchain/index.md",
       "displayName": "Create: Blockchain",
       "checks": {
@@ -1793,8 +1793,150 @@
       "issuesCount": 0,
       "warningsCount": 2,
       "noticesCount": 4
+    },
+    {
+      "file": "posts/dynamic-waybar-css-for-omarchyos/index.md",
+      "displayName": "Dynamic Waybar CSS for OmarchyOS",
+      "checks": {
+        "titleLength": [
+          {
+            "passed": true,
+            "message": "Good title length: 40 characters (Dynamic Waybar CSS for OmarchyOS + \" Sewdohe\")",
+            "severity": "info"
+          }
+        ],
+        "metaDescription": [
+          {
+            "passed": true,
+            "message": "Good description length: 160 characters",
+            "severity": "info"
+          }
+        ],
+        "titleH1Uniqueness": [
+          {
+            "passed": true,
+            "message": "Meta title and H1 are unique (prefix/suffix configured)",
+            "severity": "info"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": true,
+            "message": "Keyword found in title",
+            "severity": "info"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": true,
+            "message": "Keyword found in description",
+            "severity": "info"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": true,
+            "message": "Keyword found in H1",
+            "severity": "info"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"Waybar\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
+        "slugFormat": [],
+        "keywordDensity": [
+          {
+            "passed": false,
+            "message": "Keyword density too high: 4.0%",
+            "suggestion": "Aim for no more than 2% density",
+            "severity": "warning"
+          }
+        ],
+        "headingOrder": [
+          {
+            "passed": true,
+            "message": "Heading structure is correct",
+            "severity": "info"
+          }
+        ],
+        "contentLength": [
+          {
+            "passed": true,
+            "message": "Good content length: 381 words",
+            "severity": "info"
+          }
+        ],
+        "duplicateTitles": [],
+        "duplicateDescriptions": [],
+        "duplicateContent": [],
+        "altText": [
+          {
+            "passed": true,
+            "message": "All media elements have alt text",
+            "severity": "info"
+          }
+        ],
+        "imageFileNames": [
+          {
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
+          }
+        ],
+        "nakedLinks": [
+          {
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
+          }
+        ],
+        "brokenLinks": [
+          {
+            "passed": true,
+            "message": "No broken internal links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenLinks": [
+          {
+            "passed": true,
+            "message": "No potentially broken links found",
+            "severity": "info"
+          }
+        ],
+        "potentiallyBrokenEmbeds": [],
+        "externalBrokenLinks": [
+          {
+            "passed": true,
+            "message": "External link: https://catppuccin.com",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 38,
+              "searchText": "https://catppuccin.com",
+              "context": "## Step 2\n\nNow let's add some functionality to this file. Slap the following code in it to make it react to both of the built-in [Catppuccin themes](https://catppuccin.com). This will make your Waybar react to both the light and dark versions of this amazing theme.\n\n```bash"
+            }
+          }
+        ],
+        "readingLevel": [
+          {
+            "passed": true,
+            "message": "Good reading level: 5.0 (Very easy to read)",
+            "severity": "info"
+          }
+        ]
+      },
+      "overallScore": 59.869565217391305,
+      "issuesCount": 0,
+      "warningsCount": 2,
+      "noticesCount": 1
     }
   ],
-  "lastScanTimestamp": 1769278567945,
+  "lastScanTimestamp": 1769375622349,
   "showNotices": true
 }

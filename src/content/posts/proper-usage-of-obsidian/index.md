@@ -1,7 +1,7 @@
 ---
 title: Proper Usage of Obsidian
 date: 2026-01-15
-description: I explain how Obsidian "clicked" for me
+description: I explain how Obsidian "clicked" for me. Learn to organize your vault like a champ!
 tags:
   - tutorial
   - obsidian
@@ -11,7 +11,7 @@ imageAlt: ""
 imageOG: true
 hideCoverImage: false
 hideTOC: false
-targetKeyword: obsidian organization tags
+targetKeyword: Obsidian organize tags
 draft: false
 ---
 Obsidian is a powerful piece of software - it's capable of doing many, many things and it's capable of doing it in many, many different ways. I see on Reddit oftentimes that users have an *aha!* moment with Obsidian - and it seems to be different for different people. We all use it for different things so that comes as no surprise - but I'd like to explain how I got my *aha!* moment with Obsidian with the hopes that someone else can gleam their moment with this amazing piece of software.
