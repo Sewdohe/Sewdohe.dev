@@ -25,7 +25,11 @@ Just today, however, I found a file located in `~/.config/omarchy/hooks` called 
 
 This file works by passing the switched-to theme as an argument via bash. Ready to theme your Waybar like never before? Let's cook 🧑‍🍳
 
+
 ## Step 1: Theme Hook
+
+> [!WARNING] Careful!
+> using this theme hook will conflict with the [user-bypass hook](https://discord.com/channels/1390012484194275541/1440068959742201907/1440068959742201907) if you're using that! Beware!
 
 Start by renaming the file to theme-set (removing the .sample portion from the filename.) and make it executable. Simply run this command:
 
@@ -184,7 +188,9 @@ That's pretty much it! Once you swap all your hard-coded colors for CSS variable
 
 Pretty damn cool, man! 🎉
 
-## Extra: My Theme
+## Extra
+
+### My Theme
 
 For brevity, here is my complete Waybar style.css:
 
@@ -538,3 +544,33 @@ It makes a style like this:
 
 
 I think it's pretty damn snazzy looking. Hope you enjoyed and learned something! 👏
+
+### Light/Dark Toggle Keybind
+
+If you're like me you are rather temperamental about when you want light/dark mode on. I made a little script that allows toggling between light/dark Catppuccin themes.
+
+Make a file in your `~/.local/bin` called `theme-toggle` and make it executable. Add the following code to the file:
+
+```bash
+#!/bin/bash
+# ~/.local/bin/theme-toggle
+
+# Get the exact name from the Omarchy utility
+CURRENT=$(omarchy-theme-current)
+
+if [ "$CURRENT" == "Catppuccin Latte" ]; then
+  # If currently light, switch to dark
+  # Note: Use the exact command you use to set themes (e.g., 'omarchy theme')
+  omarchy-theme-set catppuccin
+else
+  # If currently mocha (or anything else), switch to latte
+  omarchy-theme-set catppuccin-latte
+fi
+```
+
+then in your `~/.config/hypr/bindings` file add the following keybind:
+
+`bind = SUPER ALT, T, exec, ~/.local/bin/theme-toggle
+
+obviously adjust the keys to your liking. It works pretty well from my testing. Enjoy!
+`
