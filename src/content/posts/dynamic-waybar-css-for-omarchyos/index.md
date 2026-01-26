@@ -25,7 +25,7 @@ Just today, however, I found a file located in `~/.config/omarchy/hooks` called 
 
 This file works by passing the switched-to theme as an argument via bash. Ready to theme your Waybar like never before? Let's cook 🧑‍🍳
 
-## Step 1
+## Step 1: Theme Hook
 
 Start by renaming the file to theme-set (removing the .sample portion from the filename.) and make it executable. Simply run this command:
 
@@ -33,7 +33,7 @@ Start by renaming the file to theme-set (removing the .sample portion from the f
 mv ~/.config/omarchy/hooks/theme-set.sample ~/.config/omarchy/hooks/theme-set && chmod +x ~/.config/omarchy/hooks/theme-set
 ```
 
-## Step 2
+## Step 2: Hook Code
 
 Now let's add some functionality to this file. Slap the following code in it to make it react to both of the built-in [Catppuccin themes](https://catppuccin.com). This will make your Waybar react to both the light and dark versions of this amazing theme.
 
@@ -171,7 +171,7 @@ EOF
 
 We're well on our way to dynamic Waybar theming! Just one more thing to do: import our newly generated CSS file and apply the colors in our Waybar styling!
 
-## Step 3
+## Step 3: Use Variables in Waybar
 
 
 > [!NOTE] Careful!
@@ -180,11 +180,11 @@ We're well on our way to dynamic Waybar theming! Just one more thing to do: impo
 
 Find your Waybar CSS file at `~/.config/waybar/style.css` and open it up. Now import the newly generated file with `@import "theme-colors.css";` as the hook file generates it in our Waybar config folder. Access the variables using the `@` syntax, e.x. `background: @surface0;` or `color: @sky`.
 
-That's pretty much it! Once you swap all your hardcoded colors for CSS variables and switch themes you'll see your Waybar change to match! 
+That's pretty much it! Once you swap all your hard-coded colors for CSS variables and switch themes you'll see your Waybar change to match! 
 
 Pretty damn cool, man! 🎉
 
-## Extras
+## Extra: My Theme
 
 For brevity, here is my complete Waybar style.css:
 
