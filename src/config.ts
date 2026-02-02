@@ -228,12 +228,12 @@ export const siteConfig: SiteConfig = {
   availableThemes: "default", // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
   fonts: {
     // [CONFIG:FONT_SOURCE]
-    source: "cdn", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
+    source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Rubik", // Body text font family
+      body: "Inter", // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Overpass", // Heading font family
+      heading: "Inter", // Heading font family
       // [CONFIG:FONT_MONO]
       mono: "JetBrains Mono", // Monospace font family
     },
@@ -337,8 +337,8 @@ export const siteConfig: SiteConfig = {
     pages: [
       { title: "Posts", url: "/posts/" },
       { title: "Projects", url: "/projects/" },
-      { title: "Awesome-Lists", url: "awesome-lists" },
-      { title: "About", url: "/about/" },
+      { title: "Awesome-Lists", url: "/awesome-lists/" },
+      { title: "About", url: "/about/" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
@@ -431,7 +431,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:POST_OPTIONS_POST_NAVIGATION]
     postNavigation: true,
     // [CONFIG:POST_OPTIONS_SHOW_POST_CARD_COVER_IMAGES]
-    showPostCardCoverImages: "all", // "all" | "featured" | "home" | "posts" | "featured-and-posts" | "none"
+    showPostCardCoverImages: "featured-and-posts", // "all" | "featured" | "home" | "posts" | "featured-and-posts" | "none"
     // [CONFIG:POST_OPTIONS_POST_CARD_ASPECT_RATIO]
     postCardAspectRatio: "og", // "16:9" | "4:3" | "3:2" | "og" | "square" | "golden" | "custom"
     // [CONFIG:POST_OPTIONS_CUSTOM_POST_CARD_ASPECT_RATIO]

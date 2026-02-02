@@ -33,10 +33,30 @@ So, yes, you can appeal to a broad audience by making the game super accessible 
 
 ## The Actual Review
 
-**W.I.P.**
+Megabonk is a unique game in my opinion. As stated above it scratches an itch that hasn't been scratched for me in some years. I loved exploring the game and learning its mechanics and nuisances. 
 
-I'm working on getting some gameplay videos and screenshots of the game 😋
+Starting out you may think it a very simple game; and in a way it is. The controls are dead simple:
 
-Will finish soon!
+- movement (Left stick)
+- Jump (A)
+- Slide (B)
+- Camera (Right stick)
+
+However, from these simple controls some really complex gameplay mechanics emerge. Each game your character starts out with it's base stats. Some characters can run slightly faster or jump slightly higher. The real meat is in the upgrades that you can earn either through slaying enemies and picking up exp/gold or visiting shrines which you have to stand near king-of-the-hill style. There are other various things to interact with during gameplay as well:
+
+- Jars
+	- give you exp/gold
+- Shrines of succ
+	- draws all gold and exp to your player
+- Challenge Shrines
+	- spawns a group of tough enemies that give nice rewards when defeated 
+- Chests
+	- for an ever-increasing price you can open chests that give you randomly-rolled items
+
+These interactables give the player a nice reason to try and explore the entire map on each run. The more of these you find the higher potential killing power of your character; the more fun you'll have. 
+
+Every aspect of the game is addictive...from the movement mechanics ( learning to keep momentum while sliding and jumping off of slopes is very rewarding ) to the gambling-esque sounds of enemies dying, chests rolling your weapon tiers, to the amazing sound of gold exiting enemies corpses as you obliterate everything around you. 
+
+It really makes you wonder what it is about some of these single-developer games success that sometimes overshadows AAA studios. Goes to show you how out of touch they are with modern gamers 🤷 But then again I believe all companies are out of touch with people. All they want is our money and we don't have any 😂 Jokes on them though. Every time I'll pick giving my money and my time to small indie devs rather than AAA companies using AI to serve us slop and charging us top-dollar for it. 
 
 
