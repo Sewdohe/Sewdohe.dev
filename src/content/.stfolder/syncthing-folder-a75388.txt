@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: el2dd-eghp5
+created: 2026-01-11T20:39:51-05:00

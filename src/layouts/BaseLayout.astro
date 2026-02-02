@@ -55,19 +55,6 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   <meta name="description" content={seoData.description}>
   <link rel="canonical" href={seoData.canonical}>
 
-  <!-- Google tag (gtag.js) -->
-  <script is:inline type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-2MRGGEC7MM"></script>
-
-  <script is:inline type="text/partytown">
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-2MRGGEC7MM");
-  </script>
-
   <!-- Robots meta tag -->
   {seoData.noIndex && (
     <meta name="robots" content="noindex, nofollow">
@@ -2020,7 +2007,7 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
           }
           // Initialize collapsible categories after page transition (for docs index page)
           if (window.initializeCollapsibleCategories) {
-            window.initializeCollapsibleCategories();
+            setTimeout(() => window.initializeCollapsibleCategories(), 100);
           }
           if (window.setupLocalGraphButtons) {
             window.setupLocalGraphButtons();
@@ -2059,6 +2046,12 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
           if (window.initializeTableOfContents) {
             window.initializeTableOfContents();
           }
+          // Update TOC height after LocalGraph renders (for PostLayout)
+          if (window.updateTOCHeight) {
+            setTimeout(() => {
+              window.updateTOCHeight();
+            }, 200);
+          }
           // Initialize doc category filtering after page transition is complete
           if (window.initializeDocCategoryFiltering) {
             window.initializeDocCategoryFiltering();
@@ -2073,10 +2066,19 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
           }
           // Initialize collapsible categories after page transition (for docs index page)
           if (window.initializeCollapsibleCategories) {
-            window.initializeCollapsibleCategories();
+            setTimeout(() => window.initializeCollapsibleCategories(), 100);
           }
           if (window.initializeCategoryScroll) {
             window.initializeCategoryScroll();
+          }
+          if (window.initializeDocsSidebar) {
+            window.initializeDocsSidebar();
+          }
+          if (window.initializeTagsSidebar) {
+            window.initializeTagsSidebar();
+          }
+          if (window.initializeCategoriesSidebar) {
+            window.initializeCategoriesSidebar();
           }
           // Graph initialization is handled in page:view hook to prevent duplicates
           // Don't call handleInitialHashScroll() here - it interferes with back/forward navigation

@@ -23,8 +23,6 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { siteConfig } from './src/config.ts';
 import swup from '@swup/astro';
 import { fileURLToPath } from 'url';
-import partytown from '@astrojs/partytown';
-
 
 // Deployment platform configuration
 const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || 'netlify';
@@ -34,6 +32,49 @@ export default defineConfig({
   deployment: {
     platform: DEPLOYMENT_PLATFORM
   },
+  csp: {
+    scriptDirective: {
+      resources: [
+        "'self'",
+        "'unsafe-inline'",
+        "https://unpkg.com",
+        "https://cdnjs.cloudflare.com",
+        "https://cdn.jsdelivr.net",
+        "https://giscus.app",
+        "https://platform.twitter.com"
+      ]
+    },
+    styleDirective: {
+      resources: [
+        "'self'",
+        "'unsafe-inline'",
+        "https://fonts.googleapis.com",
+        "https://cdnjs.cloudflare.com"
+      ]
+    },
+    fontDirective: {
+      resources: [
+        "'self'",
+        "data:",
+        "https://fonts.gstatic.com",
+        "https://cdnjs.cloudflare.com"
+      ]
+    },
+    imgDirective: {
+      resources: ["'self'", "data:", "https:"]
+    },
+    connectDirective: {
+      resources: ["'self'", "https://giscus.app"]
+    },
+    frameDirective: {
+      resources: [
+        "'self'",
+        "https://www.youtube.com",
+        "https://giscus.app",
+        "https://platform.twitter.com"
+      ]
+    }
+  },
   devToolbar: {
     enabled: true
   },
@@ -42,6 +83,15 @@ export default defineConfig({
   '/about-us': '/about',
   '/contact-me': '/contact',
   '/contact-us': '/contact',
+  '/privacy': '/privacy-policy',
+  '/posts/mermaid-test': '/posts/obsidian-embeds-demo',
+  '/posts/mermaid-diagram-test': '/posts/obsidian-embeds-demo',
+  '/posts/mermaid-diagrams': '/posts/obsidian-embeds-demo',
+  '/posts/astro-suite-vault-modular-guide': '/posts/vault-cms-guide',
+  '/posts/astro-suite-obsidian-vault-guide-astro-modular': '/posts/vault-cms-guide',
+  '/posts/obsidian-vault-guide': '/posts/vault-cms-guide',
+  '/projects/obsidian-astro-composer': '/projects/astro-composer',
+  '/projects/obsidian-astro-suite': '/projects/vault-cms',
   '/docs/api-reference': '/docs/api',
   '/docs/astro-modular-configuration': '/docs/configuration',
   '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup'
@@ -60,7 +110,6 @@ image: {
   integrations: [
     tailwind(),
     sitemap(),
-    partytown({ config: { forward: ['dataLayer.push'] } }),
     mdx(),
     swup({
       theme: false,
@@ -147,6 +196,7 @@ image: {
       middlewareMode: false,
       hmr: true,
       watch: {
+      ignored: ['**/.obsidian/**', '**/_bases/**', '**/bases/**'],
         usePolling: process.platform === 'win32', // Use polling on Windows for better file watching
         interval: 1000
       },

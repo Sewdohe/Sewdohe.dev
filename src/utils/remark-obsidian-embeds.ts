@@ -417,7 +417,7 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
     });
 
     // Visit code blocks for directive-based Bases (```base ... ```)
-    visit(tree, 'code', (node: any, index: number | null, parent: any) => {
+    visit(tree, 'code', (node: any, index: number | undefined, parent: any) => {
       if (!parent || typeof index !== 'number') return;
       const lang = (node.lang || '').toLowerCase();
       if (lang !== 'base') return;

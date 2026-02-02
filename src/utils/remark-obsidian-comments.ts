@@ -1,6 +1,6 @@
 import type { Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
-import type { Root, Text, Paragraph } from 'unist';
+import type { Root, Text, Paragraph } from 'mdast';
 
 /**
  * Remark plugin to remove Obsidian-style comments (%%...%%)
