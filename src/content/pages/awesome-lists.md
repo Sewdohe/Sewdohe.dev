@@ -4,9 +4,7 @@ description: lists of things that I think are awesome!!!
 noIndex: false
 hideTOC: false
 draft: false
-aliases:
-  - awesome-lists
-  - index
+aliases: index
 ---
 ## Youtube Channels
 

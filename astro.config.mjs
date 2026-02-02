@@ -81,6 +81,7 @@ export default defineConfig({
   redirects: (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'build') ? {
   '/about-me': '/about',
   '/about-us': '/about',
+  '/index': '/awesome-lists',
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',

@@ -1,6 +1,34 @@
 {
   "nodes": [
     {
+      "id": "book-review-redwall",
+      "type": "post",
+      "title": "Book Review: Redwall",
+      "slug": "book-review-redwall",
+      "connections": 0
+    },
+    {
+      "id": "corporate-america-makes-me-sad",
+      "type": "post",
+      "title": "Corporate America Makes Me Sad",
+      "slug": "corporate-america-makes-me-sad",
+      "connections": 0
+    },
+    {
+      "id": "dynamic-waybar-css-for-omarchyos",
+      "type": "post",
+      "title": "Dynamic Waybar CSS for OmarchyOS",
+      "slug": "dynamic-waybar-css-for-omarchyos",
+      "connections": 0
+    },
+    {
+      "id": "flag-rate-jobs-are-evil",
+      "type": "post",
+      "title": "Flag-Rate Jobs are Evil",
+      "slug": "flag-rate-jobs-are-evil",
+      "connections": 1
+    },
+    {
       "id": "formatting-reference",
       "type": "post",
       "title": "Formatting Reference",
@@ -15,11 +43,53 @@
       "connections": 6
     },
     {
+      "id": "hyprland-is-amazing",
+      "type": "post",
+      "title": "Hyprland Is Amazing 💘",
+      "slug": "hyprland-is-amazing",
+      "connections": 1
+    },
+    {
+      "id": "megabonk-game-review",
+      "type": "post",
+      "title": "Megabonk: Game Review",
+      "slug": "megabonk-game-review",
+      "connections": 0
+    },
+    {
+      "id": "minecraft-modpacks-packwiz",
+      "type": "post",
+      "title": "Minecraft Modpacks & Packwiz",
+      "slug": "minecraft-modpacks-packwiz",
+      "connections": 0
+    },
+    {
+      "id": "new-site",
+      "type": "post",
+      "title": "New Site - Who dis?",
+      "slug": "new-site",
+      "connections": 0
+    },
+    {
       "id": "obsidian-embeds-demo",
       "type": "post",
       "title": "Obsidian Embeds Demo",
       "slug": "obsidian-embeds-demo",
       "connections": 0
+    },
+    {
+      "id": "organizing-with-obsidian",
+      "type": "post",
+      "title": "Organizing with Obsidian",
+      "slug": "organizing-with-obsidian",
+      "connections": 1
+    },
+    {
+      "id": "proper-usage-of-obsidian",
+      "type": "post",
+      "title": "Proper Usage of Obsidian",
+      "slug": "proper-usage-of-obsidian",
+      "connections": 2
     },
     {
       "id": "sample-folder-based-post",
@@ -116,12 +186,27 @@
       "source": "getting-started",
       "target": "formatting-reference",
       "type": "link"
+    },
+    {
+      "source": "hyprland-is-amazing",
+      "target": "new-site",
+      "type": "link"
+    },
+    {
+      "source": "proper-usage-of-obsidian",
+      "target": "organizing-with-obsidian",
+      "type": "link"
+    },
+    {
+      "source": "proper-usage-of-obsidian",
+      "target": "flag-rate-jobs-are-evil",
+      "type": "link"
     }
   ],
   "metadata": {
-    "totalPosts": 5,
-    "totalConnections": 16,
+    "totalPosts": 15,
+    "totalConnections": 19,
     "maxNodesApplied": false,
-    "originalNodeCount": 5
+    "originalNodeCount": 15
   }
 }

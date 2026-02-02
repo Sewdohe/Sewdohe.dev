@@ -158,6 +158,12 @@
   force = true
 
 [[redirects]]
+  from = "/index"
+  to = "/awesome-lists"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/contact-me"
   to = "/contact"
   status = 301
