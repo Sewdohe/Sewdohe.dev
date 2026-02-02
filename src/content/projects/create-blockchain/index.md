@@ -9,7 +9,7 @@ categories:
 repositoryUrl: https://github.com/Sewdohe/Create-Blockchain
 demoURL: ""
 status: archived
-image: "[[create-blockchain-logo.png]]"
+image: "[[create-blockchain-screenshot.png]]"
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false

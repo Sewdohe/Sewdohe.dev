@@ -204,14 +204,14 @@ export const siteConfig: SiteConfig = {
   availableThemes: "default", // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
   fonts: {
     // [CONFIG:FONT_SOURCE]
-    source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
+    source: "cdn", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Inter",      // Body text font family
+      body: "Overpass",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Inter",   // Heading font family  
+      heading: "Rubik",   // Heading font family  
       // [CONFIG:FONT_MONO]
-      mono: "JetBrains Mono", // Monospace font family
+      mono: "Space Mono", // Monospace font family
     },
     // [CONFIG:FONT_DISPLAY]
     display: "swap", // Font display strategy: "swap" (recommended), "fallback", or "optional"
@@ -341,7 +341,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
     projects: true, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: true, // Enable documentation section
+    docs: false, // Enable documentation section
   },
 
   // Home Options
@@ -534,7 +534,8 @@ export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string
     'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans Pro', 
     'Nunito', 'Montserrat', 'Playfair Display', 'Merriweather', 'Lora', 
     'Crimson Text', 'PT Serif', 'Libre Baskerville', 'Fira Code', 
-    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code'
+    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code',
+    'Overpass', 'Rubik', 'Space Mono'
   ];
   
   const fonts = new Set<string>();

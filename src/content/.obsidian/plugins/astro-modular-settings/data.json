@@ -239,7 +239,7 @@
   },
   "optionalContentTypes": {
     "projects": true,
-    "docs": true
+    "docs": false
   },
   "availableThemes": "default",
   "customThemes": "",

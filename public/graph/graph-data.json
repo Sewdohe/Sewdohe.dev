@@ -29,20 +29,6 @@
       "connections": 1
     },
     {
-      "id": "formatting-reference",
-      "type": "post",
-      "title": "Formatting Reference",
-      "slug": "formatting-reference",
-      "connections": 13
-    },
-    {
-      "id": "getting-started",
-      "type": "post",
-      "title": "Getting Started",
-      "slug": "getting-started",
-      "connections": 6
-    },
-    {
       "id": "hyprland-is-amazing",
       "type": "post",
       "title": "Hyprland Is Amazing 💘",
@@ -71,13 +57,6 @@
       "connections": 0
     },
     {
-      "id": "obsidian-embeds-demo",
-      "type": "post",
-      "title": "Obsidian Embeds Demo",
-      "slug": "obsidian-embeds-demo",
-      "connections": 0
-    },
-    {
       "id": "organizing-with-obsidian",
       "type": "post",
       "title": "Organizing with Obsidian",
@@ -90,103 +69,9 @@
       "title": "Proper Usage of Obsidian",
       "slug": "proper-usage-of-obsidian",
       "connections": 2
-    },
-    {
-      "id": "sample-folder-based-post",
-      "type": "post",
-      "title": "Sample Folder-Based Post",
-      "slug": "sample-folder-based-post",
-      "connections": 0
-    },
-    {
-      "id": "vault-cms-guide",
-      "type": "post",
-      "title": "Vault CMS Guide",
-      "slug": "vault-cms-guide",
-      "connections": 0
     }
   ],
   "connections": [
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "sample-folder-based-post",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "obsidian-embeds-demo",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "getting-started",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "obsidian-embeds-demo",
-      "type": "link"
-    },
-    {
-      "source": "formatting-reference",
-      "target": "obsidian-embeds-demo",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "formatting-reference",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "formatting-reference",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "vault-cms-guide",
-      "type": "link"
-    },
-    {
-      "source": "getting-started",
-      "target": "formatting-reference",
-      "type": "link"
-    },
     {
       "source": "hyprland-is-amazing",
       "target": "new-site",
@@ -204,9 +89,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 15,
-    "totalConnections": 19,
+    "totalPosts": 10,
+    "totalConnections": 3,
     "maxNodesApplied": false,
-    "originalNodeCount": 15
+    "originalNodeCount": 10
   }
 }
