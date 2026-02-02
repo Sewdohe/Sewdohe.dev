@@ -505,6 +505,8 @@ export function getFontFamily(fontName: string): string {
   // Convert font name to CSS font-family with fallbacks
   const fontMap: Record<string, string> = {
     'Inter': "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    'Overpass': "'Overpass', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    'Rubik': "'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Roboto': "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Open Sans': "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Lato': "'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
