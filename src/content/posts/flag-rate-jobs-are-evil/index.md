@@ -12,7 +12,7 @@ imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: false
+draft: true
 ---
 I've been a mechanic for a little over 3 years now. My time at my workplace has been a series of ups and downs. There have been large swaths of good as well as bad. Most importantly I work with great people at my job - that's the only reason I've lasted as long as I have.
 
