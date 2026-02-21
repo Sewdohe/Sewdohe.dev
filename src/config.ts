@@ -181,13 +181,13 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://divnectar.com",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "DivNectar",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "A flexible blog theme designed for Obsidian users.",
+  description: "Home of Sewdohe and all things made by Sewdohe",
   // [CONFIG:SITE_AUTHOR]
-  author: "David V. Kimball",
+  author: "Sewdohe (Josh Melton)",
   // [CONFIG:SITE_LANGUAGE]
   language: "en",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
@@ -204,12 +204,12 @@ export const siteConfig: SiteConfig = {
   availableThemes: "default", // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
   fonts: {
     // [CONFIG:FONT_SOURCE]
-    source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
+    source: "cdn", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Inter",      // Body text font family
+      body: "Rubik",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Inter",   // Heading font family  
+      heading: "Overpass",   // Heading font family  
       // [CONFIG:FONT_MONO]
       mono: "JetBrains Mono", // Monospace font family
     },
@@ -218,7 +218,7 @@ export const siteConfig: SiteConfig = {
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]
-    contentWidth: "45rem",
+    contentWidth: "65rem",
   },
   tableOfContents: {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]
@@ -523,6 +523,8 @@ export function getFontFamily(fontName: string): string {
     'Source Code Pro': "'Source Code Pro', 'Monaco', 'Consolas', 'Courier New', monospace",
     'IBM Plex Mono': "'IBM Plex Mono', 'Monaco', 'Consolas', 'Courier New', monospace",
     'Cascadia Code': "'Cascadia Code', 'Monaco', 'Consolas', 'Courier New', monospace",
+    'Rubik': "'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    'Overpass': "'Overpass', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
   };
   
   return fontMap[fontName] || `'${fontName}', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`;
@@ -534,7 +536,8 @@ export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string
     'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans Pro', 
     'Nunito', 'Montserrat', 'Playfair Display', 'Merriweather', 'Lora', 
     'Crimson Text', 'PT Serif', 'Libre Baskerville', 'Fira Code', 
-    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code'
+    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code',
+    'Rubik', 'Overpass'
   ];
   
   const fonts = new Set<string>();
