@@ -16,7 +16,7 @@ hideTOC: false
 noIndex: false
 featured: true
 ---
-# Rivet: The High-Performance, Lua-Driven Discord Engine
+# Navi: The High-Performance, Lua-Driven Discord Engine
 
 **Navi** is a next-generation, general-purpose Discord bot built for server owners who demand absolute stability, and developers who crave flexibility. 
 
