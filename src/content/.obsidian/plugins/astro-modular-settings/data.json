@@ -14,11 +14,11 @@
   "siteInfo": {
     "site": "https://divnectar.com",
     "title": "DivNectar",
-    "description": "Personal blog and portfolio of Sewdohe",
-    "author": "Josh Melton",
+    "description": "Homesite of Sewdohe and all things made by Sewdohe",
+    "author": "Sewdohe (Josh Melton)",
     "language": "en",
     "faviconThemeAdaptive": false,
-    "defaultOgImageAlt": "Astro Modular logo."
+    "defaultOgImageAlt": "DivNectar"
   },
   "layout": {
     "contentWidth": "45rem"
@@ -33,7 +33,7 @@
     "showSocialIconsInFooter": true
   },
   "seo": {
-    "defaultOgImageAlt": "Astro Modular logo."
+    "defaultOgImageAlt": "DivNectar"
   },
   "navigation": {
     "showNavigation": true,
