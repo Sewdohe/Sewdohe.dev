@@ -18,6 +18,8 @@ featured: true
 ---
 # Navi: The High-Performance, Lua-Driven Discord Engine
 
+![navibot-preview](navibot-preview.png)![navibot-config-preview](navibot-config-preview.png)
+
 **Navi** is a next-generation, general-purpose Discord bot built for server owners who demand absolute stability, and developers who crave flexibility. 
 
 Unlike traditional bots that require full restarts for every minor update, Navi operates as a high-performance **Engine** written in Rust, running a sandboxed **Virtual Machine** for Lua plugins. This architecture separates the heavy lifting (networking, threading, and memory management) from the active bot logic, resulting in a plug-and-play ecosystem that is blazing fast, memory-safe, and capable of zero-downtime updates.
