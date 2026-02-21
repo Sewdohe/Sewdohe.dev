@@ -19,16 +19,16 @@ Use Obsidian as a CMS with [Vault CMS](https://github.com/davidvkimball/vault-cm
 
 ### Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/astro-modular/deploys)
-[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)
+[![GitHub last commit](https://img.shields.io/github/last-commit/davidvkimball/astro-modular/master)](https://github.com/davidvkimball/astro-modular)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/davidvkimball/astro-modular)](https://github.com/davidvkimball/astro-modular)
 
 ### Tech Stack
-[![Astro](https://img.shields.io/badge/Astro-5.15.1-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
+[![Astro](https://img.shields.io/badge/Astro-6.0.0--beta.1-FF5D01?logo=astro&logoColor=white)](https://astro.build/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-20.3.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![pnpm](https://img.shields.io/badge/pnpm-7.1.0-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)
-[![Obsidian](https://img.shields.io/badge/Obsidian-1.11.4-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)
+[![Node.js](https://img.shields.io/badge/Node.js-24.13.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![pnpm](https://img.shields.io/badge/pnpm-10.29.3-F69220?logo=pnpm&logoColor=white)](https://pnpm.io/)
+[![Obsidian](https://img.shields.io/badge/Obsidian-1.12.2-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)
 
 ## Why Astro Modular?
 
@@ -72,7 +72,18 @@ Use Obsidian as a CMS with [Vault CMS](https://github.com/davidvkimball/vault-cm
 
 Choose one of the following methods to get started:
 
-#### Option 1: Use GitHub Template (Recommended)
+#### Option 1: CLI (Recommended)
+
+```bash
+pnpm create astro-modular my-blog
+cd my-blog
+```
+
+[![npm version](https://img.shields.io/npm/v/create-astro-modular)](https://www.npmjs.com/package/create-astro-modular)
+
+This downloads the latest template, removes dev-only files, and installs dependencies automatically. Also works with `npm create astro-modular my-blog`.
+
+#### Option 2: Use GitHub Template
 
 1. Click the **"Use this template"** button on the [repository page](https://github.com/davidvkimball/astro-modular)
 2. Select **"Create a new repository"**
@@ -84,7 +95,7 @@ Choose one of the following methods to get started:
    cd your-repo-name
    ```
 
-#### Option 2: Fork the Repository
+#### Option 3: Fork the Repository
 
 1. Click the **"Fork"** button on the [repository page](https://github.com/davidvkimball/astro-modular)
 2. Choose where to fork the repository (your personal account or organization)
@@ -95,8 +106,8 @@ Choose one of the following methods to get started:
    ```
 
 ### Prerequisites
-- Node.js 18.20.8
-- pnpm 7.1.0 or npm 9.6.5
+- Node.js 24.13.0+
+- pnpm 10.29.3+ or npm 9.6.5+
 
 > [!NOTE]
 > While this theme works great with any markdown editor, it's specifically optimized for Obsidian use. See the [Astro Suite Vault Guide](src/content/posts/obsidian-vault-guide.md) for Obsidian-specific features.

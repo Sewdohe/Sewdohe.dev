@@ -36,6 +36,13 @@
       "connections": 1
     },
     {
+      "id": "journaling-with-obsidian",
+      "type": "post",
+      "title": "Journaling With Obsidian",
+      "slug": "journaling-with-obsidian",
+      "connections": 0
+    },
+    {
       "id": "megabonk-game-review",
       "type": "post",
       "title": "Megabonk: Game Review",
@@ -89,9 +96,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 10,
+    "totalPosts": 11,
     "totalConnections": 3,
     "maxNodesApplied": false,
-    "originalNodeCount": 10
+    "originalNodeCount": 11
   }
 }

@@ -9,7 +9,7 @@ categories:
 repositoryUrl: https://github.com/Sewdohe/NaviBot
 demoURL: ""
 status: in-progress
-image: "[[navibot-logo.png]]"
+image: "[[journaling-with-obsidian-image.png]]"
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
@@ -23,7 +23,6 @@ featured: true
 Unlike traditional bots that require full restarts for every minor update, Navi operates as a high-performance **Engine** written in Rust, running a sandboxed **Virtual Machine** for Lua plugins. This architecture separates the heavy lifting (networking, threading, and memory management) from the active bot logic, resulting in a plug-and-play ecosystem that is blazing fast, memory-safe, and capable of zero-downtime updates.
 
 ### 🏗️ The Architecture
-
 At its core, Navi utilizes a hybrid-language, multi-threaded design:
 * **The Hardware (Rust):** Powered by Tokio for asynchronous runtime and Serenity for Discord API interfacing, the Rust backbone handles the event loop, database locks, and HTTP requests. It is completely bulletproof, ensuring the bot never crashes during runtime.
 * **The Brain (Lua):** Bot features (like economy systems, moderation tools, and reaction roles) are written as lightweight Lua scripts. These plugins are entirely sandboxed and interact with Discord through a highly restricted, custom API (`navi_api`) exposed by the Rust engine.
@@ -37,9 +36,4 @@ At its core, Navi utilizes a hybrid-language, multi-threaded design:
 * **Modular by Design:** Navi is built to be a premium, plug-and-play product. Server owners can drop a new `.lua` file into the plugins folder, and the bot instantly learns new commands and database schemas. 
 
 ### 🚀 Built For the Future
-
 Navi bridges the gap between complex systems engineering and user-friendly server management. It is designed from the ground up to be the ultimate foundation for robust, commercial-grade Discord communities, offering a growing library of default plugins that cover everything from leveling systems to interactive storefronts.
-
-### 📄 Docs 
-
-Coming soon! Lots to document here!

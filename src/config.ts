@@ -181,37 +181,37 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://divnectar.com",
+  site: "https://astro-modular.netlify.app",
   // [CONFIG:SITE_TITLE]
-  title: "DivNectar",
+  title: "Astro Modular",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "Personal blog and portfolio of Sewdohe",
+  description: "A flexible blog theme designed for Obsidian users.",
   // [CONFIG:SITE_AUTHOR]
-  author: "Josh Melton",
+  author: "David V. Kimball",
   // [CONFIG:SITE_LANGUAGE]
   language: "en",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
-  faviconThemeAdaptive: false, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
+  faviconThemeAdaptive: true, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
   // [CONFIG:DEFAULT_OG_IMAGE_ALT]
   defaultOgImageAlt: "Astro Modular logo.", // Alt text for the default Open Graph image, public/open-graph.png
 
   // Global Settings
   // [CONFIG:THEME]
-  theme: "catppuccin", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
+  theme: "oxygen", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
   // [CONFIG:CUSTOM_THEME_FILE]
   customThemeFile: "custom", // Only used if theme is set to "custom" above. Filename in src/themes/custom/ (without .ts extension)
   // [CONFIG:AVAILABLE_THEMES]
   availableThemes: "default", // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
   fonts: {
     // [CONFIG:FONT_SOURCE]
-    source: "cdn", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
+    source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Overpass",      // Body text font family
+      body: "Inter",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Rubik",   // Heading font family  
+      heading: "Inter",   // Heading font family  
       // [CONFIG:FONT_MONO]
-      mono: "Space Mono", // Monospace font family
+      mono: "JetBrains Mono", // Monospace font family
     },
     // [CONFIG:FONT_DISPLAY]
     display: "swap", // Font display strategy: "swap" (recommended), "fallback", or "optional"
@@ -259,7 +259,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:COMMAND_PALETTE_SEARCH_PAGES]
       pages: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_PROJECTS]
-      projects: true,
+      projects: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_DOCS]
       docs: false,
     },
@@ -286,9 +286,9 @@ export const siteConfig: SiteConfig = {
   // Profile Picture
   profilePicture: {
     // [CONFIG:PROFILE_PICTURE_ENABLED]
-    enabled: true, 
+    enabled: false, 
     // [CONFIG:PROFILE_PICTURE_IMAGE]
-    image: "/sewdohe.png", // Path to your profile image (place in public/ directory)
+    image: "/profile.jpg", // Path to your profile image (place in public/ directory)
     // [CONFIG:PROFILE_PICTURE_ALT]
     alt: "Profile picture",
     // [CONFIG:PROFILE_PICTURE_SIZE]
@@ -313,25 +313,24 @@ export const siteConfig: SiteConfig = {
     pages: [
       { title: "Posts", url: "/posts/" },
       { title: "Projects", url: "/projects/" },
-      { title: "Awesome-Lists", url: "/awesome-lists/" },
-      { title: "About", url: "/about/" }
+      { title: "Docs", url: "/docs/" },
+      { title: "About", url: "/about/",
+        children: [
+          { title: "Privacy Policy", url: "/privacy-policy/" }
+        ] },
+      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
-        title: "Bluesky",
-        url: "https://bsky.app/profile/divnectar.com",
-        icon: "bluesky",
+        title: "X",
+        url: "https://x.com/davidvkimball",
+        icon: "x-twitter",
       },
       {
         title: "GitHub",
-        url: "https://github.com/Sewdohe",
+        url: "https://github.com/davidvkimball",
         icon: "github",
-      },
-      {
-        title: "Reddit",
-        url: "https://www.reddit.com/user/Sewdohe/",
-        icon: "reddit",
       },
     ],
   },
@@ -341,7 +340,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
     projects: true, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: false, // Enable documentation section
+    docs: true, // Enable documentation section
   },
 
   // Home Options
@@ -364,17 +363,17 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_PROJECTS_ENABLED]
       enabled: true, // Show featured projects on homepage
       // [CONFIG:HOME_OPTIONS_PROJECTS_COUNT]
-      count: 3, // Number of projects to show
+      count: 2, // Number of projects to show
     },
     docs: {
       // [CONFIG:HOME_OPTIONS_DOCS_ENABLED]
-      enabled: false, // Show featured docs on homepage
+      enabled: true, // Show featured docs on homepage
       // [CONFIG:HOME_OPTIONS_DOCS_COUNT]
       count: 3, // Number of docs to show
     },
     blurb: {
       // [CONFIG:HOME_OPTIONS_BLURB_PLACEMENT]
-      placement: "above", // 'above' (at the top), 'below' (after content), or 'none' (disabled)
+      placement: "below", // 'above' (at the top), 'below' (after content), or 'none' (disabled)
     },
   },
 
@@ -414,31 +413,31 @@ export const siteConfig: SiteConfig = {
     customPostCardAspectRatio: "2.5/1", // Only used when postCardAspectRatio is "custom" (e.g., "2.5/1")
     comments: {
       // [CONFIG:POST_OPTIONS_COMMENTS_ENABLED]
-      enabled: true,
+      enabled: false,
       // [CONFIG:POST_OPTIONS_COMMENTS_PROVIDER]
       provider: "giscus",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO]
-      repo: "Sewdohe/Sewdohe.dev",
+      repo: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO_ID]
-      repoId: "R_kgDOQ3Sziw",
+      repoId: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY]
-      category: "General",
+      category: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY_ID]
-      categoryId: "DIC_kwDOQ3Szi84C0zlx",
+      categoryId: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_MAPPING]
-      mapping: "pathname",
+      mapping: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_STRICT]
-      strict: "0",
+      strict: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_REACTIONS]
-      reactions: "1",
+      reactions: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_METADATA]
-      metadata: "0",
+      metadata: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_INPUT_POSITION]
-      inputPosition: "bottom",
+      inputPosition: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_THEME]
-      theme: "preferred_color_scheme",
+      theme: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_LANG]
-      lang: "en",
+      lang: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_LOADING]
       loading: "",
     },
@@ -505,8 +504,6 @@ export function getFontFamily(fontName: string): string {
   // Convert font name to CSS font-family with fallbacks
   const fontMap: Record<string, string> = {
     'Inter': "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-    'Overpass': "'Overpass', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
-    'Rubik': "'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Roboto': "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Open Sans': "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
     'Lato': "'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
@@ -536,8 +533,7 @@ export function getGoogleFontsUrl(headingFont: string, bodyFont: string): string
     'Inter', 'Roboto', 'Open Sans', 'Lato', 'Poppins', 'Source Sans Pro', 
     'Nunito', 'Montserrat', 'Playfair Display', 'Merriweather', 'Lora', 
     'Crimson Text', 'PT Serif', 'Libre Baskerville', 'Fira Code', 
-    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code',
-    'Overpass', 'Rubik', 'Space Mono'
+    'JetBrains Mono', 'Source Code Pro', 'IBM Plex Mono', 'Cascadia Code'
   ];
   
   const fonts = new Set<string>();
