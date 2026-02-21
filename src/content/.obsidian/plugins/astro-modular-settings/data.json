@@ -112,7 +112,7 @@
       "count": 3
     },
     "docs": {
-      "enabled": false,
+      "enabled": true,
       "count": 3
     },
     "blurb": {
@@ -239,7 +239,7 @@
   },
   "optionalContentTypes": {
     "projects": true,
-    "docs": false
+    "docs": true
   },
   "availableThemes": "default",
   "customThemes": "",

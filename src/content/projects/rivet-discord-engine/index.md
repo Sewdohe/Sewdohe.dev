@@ -9,7 +9,7 @@ categories:
 repositoryUrl: https://github.com/Sewdohe/NaviBot
 demoURL: ""
 status: in-progress
-image: "[[journaling-with-obsidian-image.png]]"
+image: "[[navibot-logo-1.png]]"
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
@@ -37,3 +37,10 @@ At its core, Navi utilizes a hybrid-language, multi-threaded design:
 
 ### 🚀 Built For the Future
 Navi bridges the gap between complex systems engineering and user-friendly server management. It is designed from the ground up to be the ultimate foundation for robust, commercial-grade Discord communities, offering a growing library of default plugins that cover everything from leveling systems to interactive storefronts.
+
+
+### 📃 Documentation
+
+Visit the documentation page for Navibot
+
+[Navibot Plugin Development Guide](docs/navibot-plugin-development-guide/index.md)
