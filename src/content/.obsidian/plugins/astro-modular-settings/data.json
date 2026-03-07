@@ -82,7 +82,7 @@
   "commandPalette": {
     "enabled": true,
     "shortcut": "ctrl+K",
-    "placeholder": "Search posts",
+    "placeholder": "Search site",
     "search": {
       "posts": true,
       "pages": false,
@@ -167,7 +167,7 @@
     "linkedMentionsCompact": false,
     "graphView": true,
     "postNavigation": true,
-    "hideScrollBar": false,
+    "hideScrollBar": true,
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": true,
