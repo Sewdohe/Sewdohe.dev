@@ -8,8 +8,8 @@ categories:
   - modding
 repositoryUrl: https://github.com/Sewdohe/Create-Blockchain
 demoURL: ""
-status: archived
-image: "[[create-blockchain-screenshot.png]]"
+status: active
+image: "[[currencyminerexample.png]]"
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
