@@ -49,6 +49,10 @@
         "url": "/projects/"
       },
       {
+        "title": "Docs",
+        "url": "/docs/"
+      },
+      {
         "title": "Awesome-Lists",
         "url": "/awesome-lists/"
       },
@@ -83,7 +87,7 @@
       "posts": true,
       "pages": false,
       "projects": true,
-      "docs": false
+      "docs": true
     },
     "sections": {
       "quickActions": true,

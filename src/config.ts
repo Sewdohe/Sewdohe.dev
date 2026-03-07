@@ -204,12 +204,12 @@ export const siteConfig: SiteConfig = {
   availableThemes: "default", // "default" to show all built-in themes, or array of theme names like ["oxygen", "minimal", "obsidianite"] to limit choices (can include custom theme filenames)
   fonts: {
     // [CONFIG:FONT_SOURCE]
-    source: "cdn", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
+    source: "local", // "local" for self-hosted @fontsource fonts, "cdn" for Google Fonts CDN
     families: {
       // [CONFIG:FONT_BODY]
-      body: "Rubik",      // Body text font family
+      body: "Inter",      // Body text font family
       // [CONFIG:FONT_HEADING]
-      heading: "Overpass",   // Heading font family  
+      heading: "Inter",   // Heading font family  
       // [CONFIG:FONT_MONO]
       mono: "JetBrains Mono", // Monospace font family
     },
@@ -218,7 +218,7 @@ export const siteConfig: SiteConfig = {
   },
   layout: {
     // [CONFIG:LAYOUT_CONTENT_WIDTH]
-    contentWidth: "65rem",
+    contentWidth: "45rem",
   },
   tableOfContents: {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]
@@ -261,7 +261,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:COMMAND_PALETTE_SEARCH_PROJECTS]
       projects: true,
       // [CONFIG:COMMAND_PALETTE_SEARCH_DOCS]
-      docs: false,
+      docs: true,
     },
     sections: {
       // [CONFIG:COMMAND_PALETTE_SECTIONS_QUICK_ACTIONS]
@@ -313,6 +313,7 @@ export const siteConfig: SiteConfig = {
     pages: [
       { title: "Posts", url: "/posts/" },
       { title: "Projects", url: "/projects/" },
+      { title: "Docs", url: "/docs/" },
       { title: "Awesome-Lists", url: "/awesome-lists/" },
       { title: "About", url: "/about/" }
     ],

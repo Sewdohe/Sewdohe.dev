@@ -4,7 +4,7 @@ description: A complete guide to authoring plugins using Navibot.
 category: navibot
 order: 0
 lastModified: 2026-02-21
-version: "0.6"
+version: "1.6"
 image: ""
 imageAlt: ""
 hideCoverImage: false
