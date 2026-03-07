@@ -84,10 +84,7 @@ export default defineConfig({
   '/about-us': '/about',
   '/index': '/awesome-lists',
   '/contact-me': '/contact',
-  '/contact-us': '/contact',
-  '/docs/api-reference': '/docs/api',
-  '/docs/astro-modular-configuration': '/docs/configuration',
-  '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup'
+  '/contact-us': '/contact'
 } : {},
 image: {
     service: {
