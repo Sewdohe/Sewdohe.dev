@@ -25,6 +25,8 @@ import { siteConfig } from './src/config.ts';
 import swup from '@swup/astro';
 import { fileURLToPath } from 'url';
 
+import partytown from '@astrojs/partytown';
+
 // Deployment platform configuration
 const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || 'netlify';
 
@@ -97,31 +99,26 @@ image: {
       protocol: 'https'
     }]
   },
-  integrations: [
-    tailwind(),
-    sitemap(),
-    mdx(),
-    swup({
-      theme: false,
-      animationClass: 'transition-swup-',
-      containers: ['#swup-container'],
-      smoothScrolling: false,
-      cache: true,
-      preload: true,
-      accessibility: false,
-      updateHead: true,
-      updateBodyClass: false,
-      globalInstance: true,
-      plugins: [], // Disable all plugins including scroll
-      skipPopStateHandling: (event) => {
-        // ALWAYS skip Swup handling for back/forward navigation
-        // Let the browser handle it naturally
-        return true;
-      },
-      // Simplified link selector for better compatibility
-      linkSelector: 'a[href]:not([data-no-swup]):not([href^="mailto:"]):not([href^="tel:"])'
-    })
-  ],
+  integrations: [tailwind(), sitemap(), mdx(), swup({
+    theme: false,
+    animationClass: 'transition-swup-',
+    containers: ['#swup-container'],
+    smoothScrolling: false,
+    cache: true,
+    preload: true,
+    accessibility: false,
+    updateHead: true,
+    updateBodyClass: false,
+    globalInstance: true,
+    plugins: [], // Disable all plugins including scroll
+    skipPopStateHandling: (event) => {
+      // ALWAYS skip Swup handling for back/forward navigation
+      // Let the browser handle it naturally
+      return true;
+    },
+    // Simplified link selector for better compatibility
+    linkSelector: 'a[href]:not([data-no-swup]):not([href^="mailto:"]):not([href^="tel:"])'
+  }), partytown()],
   markdown: {
       remarkPlugins: [
       remarkObsidianImageSize, // Parse Obsidian image size syntax first

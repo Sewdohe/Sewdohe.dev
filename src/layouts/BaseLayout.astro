@@ -50,6 +50,19 @@ const scrollbarClass = siteConfig.hideScrollBar ? '' : 'show-scrollbars';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Google tag (gtag.js) -->
+  <script is:inline type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-2MRGGEC7MM"></script>
+
+  <script is:inline type="text/partytown">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-2MRGGEC7MM");
+  </script>
+
   <!-- SEO Meta Tags -->
   <title>{seoData.title}</title>
   <meta name="description" content={seoData.description}>
