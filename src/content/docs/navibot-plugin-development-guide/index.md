@@ -5,7 +5,7 @@ category: navibot
 order: 0
 lastModified: 2026-02-21
 version: "1.6"
-image: ""
+image: "[[navibot-screenshot.png]]"
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false

@@ -7,7 +7,7 @@ tags:
   - software
   - rambling
   - hyprland
-image: "[[hyprland-logo.png]]"
+image: "[[hyprland-desktop.png]]"
 imageAlt: ""
 imageOG: true
 hideCoverImage: false
