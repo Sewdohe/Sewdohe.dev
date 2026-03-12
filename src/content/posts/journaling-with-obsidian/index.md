@@ -46,8 +46,8 @@ Add those to Obsidian and let's get started!
 
 ## The Meat: Journal Plugin
 
-The foundation for this system is the [Journal Plugin](https://github.com/srg-kostyrko/obsidian-journal). This plugin allows easy creation of daily notes, as well as providing a very nice and elegant looking navigation at the top of said notes: 
-*insert image here*
+The foundation for this system is the [Journal Plugin](https://github.com/srg-kostyrko/obsidian-journal). This plugin allows easy creation of daily notes, as well as providing a very nice and elegant looking navigation at the top of said notes.
+
 The plugin is capable of much more than just daily notes, however that's all that I use it for in my system.
 
 The way we set it up is like so:
