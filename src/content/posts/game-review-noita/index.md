@@ -27,3 +27,5 @@ I found a random wand the other day that looked like it shot sawblades out. Cool
  *I sawed myself in half* 
 
 I've played Noita now for probably around 8 hours...I haven't even discovered a *small portion* of the spells available in the game. The scope of things you can do in the game is **overwhelming**. I haven't been this mystified by a video game in a *lonnggggg* time, honestly! The fact that the game can be purchased for only $20 is truly mind-boggling.
+
+Even more mind-boggling is that fact that I've literally...*LITERALLY* not even scratched the surface on the total content of the game. I've not even came close to reaching the bottom of the world, killing the final boss, and "beating the tutorial" like the n00b that I am. Beyond that final boss you can do things like discover hidden knowledge, OP spells, even to go as far as becoming a GOD and choosing to level the world if I so choose - and that would be just fine, because then I could just break out of that world and enter one of the infinite *parallel worlds* that each Noita run contains! 🤯
