@@ -11,7 +11,7 @@ imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 # Noita
 
