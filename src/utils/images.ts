@@ -446,8 +446,8 @@ export function getOptimizedFormat(imagePath: string): string {
   }
 
   // Convert supported image formats to WebP
-  // sync-images.js creates WebP versions of JPG/PNG/GIF/etc during build
-  return imagePath.replace(/\.(jpg|jpeg|png|gif|bmp|tiff|tif)$/i, ".webp");
+  // sync-images.js creates WebP versions of JPG/PNG/etc during build (GIFs are kept as-is to preserve animation)
+  return imagePath.replace(/\.(jpg|jpeg|png|bmp|tiff|tif)$/i, ".webp");
 }
 
 // Check if image format can be optimized

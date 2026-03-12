@@ -1694,8 +1694,8 @@ function convertToWebP(imagePath: string): string {
     return imagePath;
   }
 
-  // Convert supported image formats to WebP
-  return imagePath.replace(/\.(jpg|jpeg|png|gif|bmp|tiff|tif)$/i, ".webp");
+  // Convert supported image formats to WebP (GIFs excluded to preserve animation)
+  return imagePath.replace(/\.(jpg|jpeg|png|bmp|tiff|tif)$/i, ".webp");
 }
 
 // Custom remark plugin to handle ALL content images (folder-based AND single-file)

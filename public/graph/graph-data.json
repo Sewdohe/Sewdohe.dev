@@ -29,6 +29,13 @@
       "connections": 1
     },
     {
+      "id": "game-review-noita",
+      "type": "post",
+      "title": "Game Review: Noita",
+      "slug": "game-review-noita",
+      "connections": 0
+    },
+    {
       "id": "hyprland-is-amazing",
       "type": "post",
       "title": "Hyprland Is Amazing 💘",
@@ -96,9 +103,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 11,
+    "totalPosts": 12,
     "totalConnections": 3,
     "maxNodesApplied": false,
-    "originalNodeCount": 11
+    "originalNodeCount": 12
   }
 }

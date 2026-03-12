@@ -806,7 +806,11 @@ textarea {
 
 
 .prose strong {
-  @apply text-primary-900 dark:text-primary-200 font-semibold;
+  @apply text-highlight-600 dark:text-highlight-400 font-semibold;
+}
+
+.prose em {
+  @apply text-highlight-500 dark:text-highlight-300;
 }
 
 .prose blockquote {
